@@ -17,7 +17,6 @@ description: Desde hace tiempo vengo leyendo blogs acerca del exploiting, parece
 publish_time: 2018-07-02T15:44:00+00:00
 modified_time: 2019-02-18T09:09:26+00:00
 comments_value: 0
-disqus_identifier: 1744
 ---
 Desde hace tiempo vengo leyendo blogs acerca del exploiting, parece que hoy al fin ha llegado mi hora de cambiar el rol. En este blog publicaré posts a modo de cursillo «desde cero» del exploiting, y adicionalmente intentaré traer frecuentemente ejemplos de vulnerabilidades (de ahora en adelante «vulns» si se me permite) en el rial guorld.  
 Este post será principalmente una intro con la que adquirir las ideas básicas.

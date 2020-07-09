@@ -21,7 +21,6 @@ description: En este primer artículo que escribo quiero hablar del Coco de la c
 publish_time: 2019-02-08T09:20:30+00:00
 modified_time: 2019-11-13T08:26:12+00:00
 comments_value: 0
-disqus_identifier: 1596
 ---
 I could dedicate this article to interpret a painting signed by Francisco de Goya, but I am not an art expert, or you wouldn’t have visited this blog for that. In this first article I write I speak of cybersecurity in recent times, which is none other than cybersecurity **IoT (Internet of Things)**.
 

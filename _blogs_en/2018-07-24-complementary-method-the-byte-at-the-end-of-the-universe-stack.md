@@ -22,7 +22,6 @@ description: Very good, this post is dedicated to a couple of, I think &#8220;te
 publish_time: 2018-07-24T14:47:00+00:00
 modified_time: 2019-11-13T08:26:20+00:00
 comments_value: 0
-disqus_identifier: 616
 ---
 Very good, this post is dedicated to a couple of, I think “techniques” might call, which can be interesting. The first is really important. This is the [**_integer overflow_**](http://phrack.org/issues/60/10.html).
 

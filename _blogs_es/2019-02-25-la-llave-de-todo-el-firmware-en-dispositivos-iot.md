@@ -19,7 +19,6 @@ description: En este artículo nos adentraremos en el mundo del firmware en disp
 publish_time: 2019-02-25T07:44:52+00:00
 modified_time: 2019-03-01T08:13:48+00:00
 comments_value: 0
-disqus_identifier: 2623
 ---
 En este artículo nos adentraremos en el [mundo de IoT](/cybersecurity-audit-assesment/internet-of-things/), centrándonos en el **firmware de los dispositivos IoT**. Cuando miramos desde la perspectiva de seguridad, es el componente más crítico de cualquier dispositivo. Casi todos los dispositivos que se nos puedan ocurrir ejecutan un firmware.
 

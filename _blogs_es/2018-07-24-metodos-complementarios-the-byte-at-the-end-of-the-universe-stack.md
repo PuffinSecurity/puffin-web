@@ -20,7 +20,6 @@ description: Muy buenas, este post estará dedicado a un par de, creo que «téc
 publish_time: 2018-07-24T14:47:00+00:00
 modified_time: 2019-11-13T08:26:13+00:00
 comments_value: 0
-disqus_identifier: 1731
 ---
 Muy buenas, este post estará dedicado a un par de, creo que «técnicas» se podrían llamar, que pueden ser interesantes. La primera es realmente **muy** importante. Se trata de los [**_integer overflow_**](http://phrack.org/issues/60/10.html).
 

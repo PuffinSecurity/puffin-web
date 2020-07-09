@@ -22,7 +22,6 @@ description: A partir del año 2000 los sistemas operativos comenzaron a soporta
 publish_time: 2018-07-05T14:33:00+00:00
 modified_time: 2019-02-19T14:36:39+00:00
 comments_value: 0
-disqus_identifier: 1737
 ---
 A partir del año 2000 los sistemas operativos comenzaron a soportar el bit NX y emuladores del mismo. Aparece el parche PaX para Linux (quien también incluye ASLR), ExecShield (RedHat), W^X (OpenBSD y macOS), y DEP (Windows a partir de WinXP SP2).  
 Esta protección consiste en diferenciar las páginas de memoria con permisos de ejecución. De esta forma aquellas páginas que cargan código tendrán permisos de ejecución pero no de escritura, en caso de intentar escribir en ellas el programa romperá, y por otro lado las páginas de datos (stack, heap, .data, .bss) poseerán permisos de escritura y no de ejecución, y por último ciertas zonas tendrán permisos solo de lectura (.rel.plt).

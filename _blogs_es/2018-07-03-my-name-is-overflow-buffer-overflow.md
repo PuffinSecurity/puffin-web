@@ -26,7 +26,6 @@ description: En principio ya ha quedado claro cómo obtenemos el control del flu
 publish_time: 2018-07-03T16:38:00+00:00
 modified_time: 2019-02-19T14:37:22+00:00
 comments_value: 0
-disqus_identifier: 1742
 ---
 En principio ya ha quedado claro cómo obtenemos el control del flujo del programa aprovechando una escritura fuera de límites. Veamos cómo se encuentra el stack durante una función como la de ayer
 

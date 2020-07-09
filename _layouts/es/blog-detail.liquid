@@ -160,7 +160,7 @@
                             {% else %}
                               <div class="comment_number">
                                     <div class="comment_number_inner">
-                                       <h5><span class="dsq-postid" data-dsqidentifier="3025 /?p=3025">Sin comentarios</span></h5>
+                                       <h5><span class="dsq-postid" data-dsqidentifier="{{ page.id }}">Sin comentarios</span></h5>
                                     </div>
                                  </div>
                                  <div class="comments">
@@ -236,7 +236,7 @@
 
 <script type='text/javascript'>
    /* <![CDATA[ */
-var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"{{ page.disqus_identifier }}","disqusShortname":"{{ site.title }}","disqusTitle":"{{ post.title }}","postId":"{{ post.id }}"};
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"{{ page.id }}","disqusShortname":"{{ site.title }}","disqusTitle":"{{ post.title }}","postId":"{{ post.id }}"};
    /* ]]> */
 </script>
 
@@ -247,7 +247,7 @@ var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdenti
    var disqus_config = function () {
       this.page = this.page || {}
       this.page.url = window.location.href;
-      this.page.identifier = "{{ page.disqus_identifier }}"
+      this.page.identifier = "{{ page.id }}"
    }
    document.addEventListener('DOMContentLoaded', function() {
       var d = document, s = d.createElement('script');

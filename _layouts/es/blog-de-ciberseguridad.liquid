@@ -89,7 +89,7 @@
                                                  </div>
                                                  <div class="post_info_right">
                                                     <a itemprop="url" class="post_comments" href="{{ post.url | relative_url }}" target="_self">
-                                                    <span class="dsq-postid" data-dsqidentifier="{{ post.disqus_identifier }}">{{ post.comments_value }}</span>											</a>
+                                                    <span class="dsq-postid" data-dsqidentifier="{{ post.id }}">{{ post.comments_value }}</span>											</a>
                                                  </div>
                                               </div>
                                            </div>
@@ -187,5 +187,5 @@
           </div>
        </div>
     </div>
-
+    <script id="dsq-count-scr" src="https://puffinsecurity-1.disqus.com/count.js" async></script>
 {% include es/footer.liquid %}

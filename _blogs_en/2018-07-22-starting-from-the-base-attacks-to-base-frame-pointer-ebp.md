@@ -23,7 +23,6 @@ description: Good afternoon, evening, or whatever it may be. Finally comes the a
 publish_time: 2018-07-21T19:59:00+00:00
 modified_time: 2019-11-13T08:25:58+00:00
 comments_value: 0
-disqus_identifier: 617
 ---
 Good afternoon, evening, or whatever it may be. Finally comes the awaited (?) Episode on attack base / frame pointer (EBP). Without further ado, let’s start function, even with two-way XDD (this is not in itself another preamble also???).
 

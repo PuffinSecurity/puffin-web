@@ -19,7 +19,6 @@ description: Hoy venimos a tratar un tema sencillo, pues es de premisas sencilla
 publish_time: 2018-07-04T20:52:00+00:00
 modified_time: 2019-02-19T14:34:02+00:00
 comments_value: 0
-disqus_identifier: 1739
 ---
 Hoy venimos a tratar un tema sencillo, pues es de premisas sencillas, pero que se puede complicar tanto como el programador decida. Me refiero al mundo del shellcoding. Por hoy nos ceñiremos al mundo de linux, ya que tengo entendido que antes de hacer internar a una decena de personas, debes llamar al psiquiátrico con una semana de antelación para avisar que preparen las camas y demás, cosa que no he hecho, así que Winbugs por ahora se queda sin post.
 

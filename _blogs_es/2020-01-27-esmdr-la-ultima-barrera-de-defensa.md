@@ -14,7 +14,6 @@ description: La modernización y profesionalización de los cibercriminales ha p
 publish_time: 2020-01-27T11:05:47+00:00
 modified_time: 2020-05-13T20:49:29+00:00
 comments_value: 0
-disqus_identifier: 3068
 ---
 La modernización y profesionalización de los cibercriminales ha provocado un nuevo paradigma en el mundo de la ciberseguridad. Las técnicas utilizadas para llevar a cabo sus objetivos ilícitos han evolucionado, por lo que nos encontramos ante un escenario en el que las soluciones tradicionales ya no son capaces de proteger a sus clientes ya sean usuarios o empresas.
 

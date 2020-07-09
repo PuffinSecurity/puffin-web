@@ -32,7 +32,6 @@ description: Buenas tardes, noches, o lo que corresponda. Por fin llega el esper
 publish_time: 2018-07-21T19:59:00+00:00
 modified_time: 2019-02-19T14:36:10+00:00
 comments_value: 0
-disqus_identifier: 1733
 ---
 Buenas tardes, noches, o lo que corresponda. Por fin llega el esperado(¿?) episodio sobre ataques al base/frame pointer (EBP).  
 Sin más preámbulos, demos comienzo a la función, sí, con doble sentido XDD (¿¿¿esto no es en sí otro preámbulo también???, en fin, ambulemos).

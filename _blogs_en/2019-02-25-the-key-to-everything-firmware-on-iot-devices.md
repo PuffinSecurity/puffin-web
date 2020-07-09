@@ -16,7 +16,6 @@ description: In this article we will enter the IoT world, focusing on the firmwa
 publish_time: 2019-02-25T07:50:41+00:00
 modified_time: 2019-10-09T12:04:18+00:00
 comments_value: 0
-disqus_identifier: 2646
 ---
 In this article we will enter the [IoT world](/cybersecurity-audit-assesment/internet-of-things/), focusing on the **firmware of IoT devices**. When we look from a perspective of security, it is the most critical component of any device. Almost any device that can come across to us execute a firmware.
 

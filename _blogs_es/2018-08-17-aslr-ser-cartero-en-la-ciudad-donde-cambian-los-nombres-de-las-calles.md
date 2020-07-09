@@ -37,7 +37,6 @@ description: Esta preciosa mañana veremos en más profundidad el ASLR que atien
 publish_time: 2018-08-17T10:14:00+00:00
 modified_time: 2019-02-19T14:37:21+00:00
 comments_value: 0
-disqus_identifier: 1729
 ---
 Esta  preciosa mañana (aunque no sé a qué hora leerás esto ) veremos en más profundidad el ASLR.
 

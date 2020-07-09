@@ -34,7 +34,6 @@ description: This beautiful morning (I do not know what time you will read this)
 publish_time: 2018-08-17T10:14:00+00:00
 modified_time: 2019-10-09T15:18:46+00:00
 comments_value: 0
-disqus_identifier: 614
 ---
 This beautiful morning (I do not know what time you will read this) we will see in more depth the ASLR.
 

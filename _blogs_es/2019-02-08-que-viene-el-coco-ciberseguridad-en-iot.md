@@ -21,7 +21,6 @@ description: En este primer artículo que escribo quiero hablar del Coco de la c
 publish_time: 2019-02-08T09:20:30+00:00
 modified_time: 2019-03-01T08:43:55+00:00
 comments_value: 0
-disqus_identifier: 1727
 ---
 Podría dedicar este artículo a interpretar la estampa firmada por Francisco de Goya, pero ni yo soy experto en arte ni vosotros habéis visitado este blog para eso. En este primer artículo que escribo quiero hablar del Coco de la ciberseguridad de los últimos tiempos, que no es otro que la ciberseguridad en **IoT (Internet of Things).**
 
