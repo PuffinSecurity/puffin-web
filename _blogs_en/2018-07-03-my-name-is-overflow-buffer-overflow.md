@@ -1,5 +1,6 @@
 ---
 layout: blog-detail
+comments: true
 title: "My name is overflow, buffer overflow"
 date: 2018-07-03T16:38:00+00:00
 categories:

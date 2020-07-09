@@ -1,5 +1,6 @@
 ---
 layout: blog-detail
+comments: true
 title: "Complementary Method : The Byte at the End of the Universe Stack"
 date: 2018-07-24T14:47:00+00:00
 categories:

@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "La llave de todo, Firmware en dispositivos IoT"
 date: 2019-02-25T07:44:52+00:00
 categories:

@@ -1,5 +1,6 @@
 ---
 layout: blog-detail
+comments: true
 title: "Starting from zero?"
 date: 2018-07-02T15:44:00+00:00
 categories:

@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "Empezando desde ¿cero?"
 date: 2018-07-02T15:44:00+00:00
 categories:

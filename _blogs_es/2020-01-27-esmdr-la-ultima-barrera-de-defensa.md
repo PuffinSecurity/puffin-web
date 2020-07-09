@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "MDR: La ultima barrera de defensa"
 date: 2020-01-27T11:05:47+00:00
 categories:

@@ -1,5 +1,6 @@
 ---
 layout: blog-detail
+comments: true
 title: "ASLR: Being a postman in the city where they change the street names"
 date: 2018-08-17T10:14:00+00:00
 categories:

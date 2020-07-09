@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "Métodos complementarios : The Byte at the End of the Universe Stack"
 date: 2018-07-24T14:47:00+00:00
 categories:

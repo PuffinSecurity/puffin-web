@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "Partiendo (de) la base: Ataques al base/frame pointer (EBP)"
 date: 2018-07-21T19:59:00+00:00
 categories:

@@ -1,5 +1,6 @@
 ---
 layout: blog-detail
+comments: true
 title: "ret2libc: Firing with its own gun"
 date: 2018-07-05T14:33:00+00:00
 categories:

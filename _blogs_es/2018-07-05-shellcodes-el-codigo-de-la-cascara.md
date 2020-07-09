@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "Shellcodes: &quot;El código de la cáscara&quot;"
 date: 2018-07-04T20:52:00+00:00
 categories:

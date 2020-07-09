@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "ASLR: Ser cartero en la ciudad donde cambian los nombres de las calles"
 date: 2018-08-17T10:14:00+00:00
 categories:

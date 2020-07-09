@@ -1,5 +1,6 @@
 ---
 layout: blog-detail
+comments: true
 title: "The Boogeyman is coming: IoT cybersecurity"
 date: 2019-02-08T09:20:30+00:00
 categories:

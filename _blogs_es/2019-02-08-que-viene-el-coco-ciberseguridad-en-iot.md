@@ -1,5 +1,6 @@
 ---
 layout: es/blog-detail
+comments: true
 title: "Que viene el coco: ciberseguridad en IoT"
 date: 2019-02-08T09:20:30+00:00
 categories:

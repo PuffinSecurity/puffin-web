@@ -1,5 +1,6 @@
 ---
 layout: blog-detail
+comments: true
 title: "The key to everything: Firmware on IoT devices"
 date: 2019-02-25T07:50:41+00:00
 categories:
