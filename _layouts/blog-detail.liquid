@@ -1,6 +1,7 @@
 {% include head-post.liquid %}
 {% include header-post.liquid %}
 
+
 <script type='text/javascript'>
    /* <![CDATA[ */
    var us_script = {"ajaxurl":"/","tweet_via":"","success":"Great work! Your message was sent.","trying":"Trying to send email...","total_shares_text":"Shares","facebook_height":"500","facebook_width":"900","twitter_height":"500","twitter_width":"900","googleplus_height":"500","googleplus_width":"900","delicious_height":"550","delicious_width":"550","stumble_height":"550","stumble_width":"550","linkedin_height":"550","linkedin_width":"550","pinterest_height":"320","pinterest_width":"720","buffer_height":"500","buffer_width":"900","reddit_height":"500","reddit_width":"900","vkontakte_height":"500","vkontakte_width":"900","printfriendly_height":"500","printfriendly_width":"1045","pocket_height":"500","pocket_width":"900","tumblr_height":"500","tumblr_width":"900","flipboard_height":"500","flipboard_width":"900","weibo_height":"500","weibo_width":"900","xing_height":"500","xing_width":"900","ok_height":"500","ok_width":"900","managewp_height":"500","managewp_width":"900","meneame_height":"500","meneame_width":"900","digg_height":"500","digg_width":"900","home_url":"https:\/\/www.puffinsecurity.com","B":"B","M":"M","k":"k","nonce":"e402fbda62","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false","bitly":"false"};
@@ -66,7 +67,9 @@
                                              </div>
                                           </div> -->
 
-                                        {{ page.content }}
+                                        <div class="main-wrapped">
+                                          {{ page.content }}
+                                        </div>
                                         {% for author in site.authors_es %}
                                         {% if page.author == author.name %}
                                         <div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author">
@@ -129,7 +132,13 @@
                                      </div>
                                   </div>
                                </div>
-                               <div id="comment-policy" class="comment-policy publisher-anchor-color"><div class="content"><p class="title">Puffin Security Comment Policy</p>Please read our <a href="http://www.puffinsecurity.com/privacy-policy/" target="_blank" rel="noopener noreferrer" class=" policy-link">Comment Policy</a> before commenting.</div><i aria-hidden="true" class="icon icon-chat-bubble"></i></div>
+                              <!-- <div id="comment-policy" class="comment-policy publisher-anchor-color">
+                                 <div class="content">
+                                    <p class="title">Puffin Security Comment Policy</p>Please read our 
+                                    <a href="http://www.puffinsecurity.com/privacy-policy/" target="_blank" rel="noopener noreferrer" class=" policy-link">Comment Policy</a> before commenting.
+                                 </div>
+                                 <i aria-hidden="true" class="icon icon-chat-bubble"></i>
+                              </div> -->
 
                                {% if page.tags.size > 0 %}
                                <div class="single_tags clearfix">
@@ -183,16 +192,20 @@
                             </article>
                          </div>
                          <div class="comment_holder clearfix" id="comments">
+                            {% if page.comments %}
+                            <div id="disqus_thread"></div>
+                            {% else %}
                             <div class="comment_number">
-                               <div class="comment_number_inner">
-                                  <h5><span class="dsq-postid" data-dsqidentifier="3025 /?p=3025">No Comments</span></h5>
-                               </div>
-                            </div>
-                            <div class="comments">
-                               <!-- If comments are open, but there are no comments. -->
-                               <!-- If comments are closed. -->
-                               <p>Sorry, the comment form is closed at this time.</p>
-                            </div>
+                              <div class="comment_number_inner">
+                                 <h5><span class="dsq-postid" data-dsqidentifier="3025 /?p=3025">No Comments</span></h5>
+                              </div>
+                           </div>
+                           <div class="comments">
+                              <!-- If comments are open, but there are no comments. -->
+                              <!-- If comments are closed. -->
+                              <p>Sorry, the comment form is closed at this time.</p>
+                           </div>
+                           {% endif %}
                          </div>
                          <div class="comment_pager">
                             <p></p>
@@ -259,9 +272,26 @@
 
 <script type='text/javascript'>
    /* <![CDATA[ */
-var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"{{ page.disqus_identifier }}","disqusShortname":"{{ site.title }}","disqusTitle":"{{ post.title }}","postId":"{{ post.id }}"};
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"{{ page.disqus_identifier }}","disqusShortname":"{{ site.disqusSortname }}","disqusTitle":"{{ post.title }}","postId":"{{ post.id }}"};
    /* ]]> */
 </script>
 
+{%  if page.comments %}
+
+<script>
+   var disqus_config = function () {
+      this.page = this.page || {}
+      this.page.url = window.location.href;
+      this.page.identifier = "{{ page.disqus_identifier }}"
+   }
+   document.addEventListener('DOMContentLoaded', function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://puffinsecurity-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+   })
+</script>
+
+{% endif %}
 
 {% include footer.liquid %}

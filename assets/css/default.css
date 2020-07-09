@@ -1286,3 +1286,12 @@ img.sab-custom-avatar {
 	background-color: unset !important;
 	color: #444444 !important;
 }
+.saboxplugin-wrap {
+	min-height: 200px;
+}
+.comment-policy .content {
+	margin-top: unset !important;
+	margin-top: unset !important;
+	padding-top: unset !important;
+	height: unset !important;
+}

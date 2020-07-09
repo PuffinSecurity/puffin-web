@@ -155,16 +155,20 @@
                             </article>
                          </div>
                          <div class="comment_holder clearfix" id="comments">
-                            <div class="comment_number">
-                               <div class="comment_number_inner">
-                                  <h5><span class="dsq-postid" data-dsqidentifier="3025 /?p=3025">No Comments</span></h5>
-                               </div>
-                            </div>
-                            <div class="comments">
-                               <!-- If comments are open, but there are no comments. -->
-                               <!-- If comments are closed. -->
-                               <p>Sorry, the comment form is closed at this time.</p>
-                            </div>
+                            {%  if page.comments %}
+                            <div id="disqus_thread"></div>
+                            {% else %}
+                              <div class="comment_number">
+                                    <div class="comment_number_inner">
+                                       <h5><span class="dsq-postid" data-dsqidentifier="3025 /?p=3025">Sin comentarios</span></h5>
+                                    </div>
+                                 </div>
+                                 <div class="comments">
+                                    <!-- If comments are open, but there are no comments. -->
+                                    <!-- If comments are closed. -->
+                                    <p>Lo sentimos, el formulario de comentarios está cerrado en este momento.</p>
+                                 </div>
+                            {% endif %}
                          </div>
                          <div class="comment_pager">
                             <p></p>
@@ -236,5 +240,23 @@ var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdenti
    /* ]]> */
 </script>
 
+
+{%  if page.comments %}
+
+<script>
+   var disqus_config = function () {
+      this.page = this.page || {}
+      this.page.url = window.location.href;
+      this.page.identifier = "{{ page.disqus_identifier }}"
+   }
+   document.addEventListener('DOMContentLoaded', function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://puffinsecurity-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+   })
+</script>
+
+{% endif %}
 
 {% include es/footer.liquid %}

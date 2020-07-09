@@ -1,3 +1,8 @@
+
+.saboxplugin-wrap {
+	min-height: 200px;
+}
+
 .vc_custom_1565603403549 {
 	background-image: url(/assets/uploads/2019/08/WebDesign-05C.png?id=2972) !important;
 	background-position: center !important;
@@ -1355,4 +1360,13 @@ img.sab-custom-avatar {
 .highlight {
 	background-color: unset !important;
 	color: #444444 !important;
+}
+
+.comment-policy {
+	.content {
+		margin-top: unset !important;
+		margin-top: unset !important;
+		padding-top: unset !important;
+		height: unset !important;
+	}
 }
