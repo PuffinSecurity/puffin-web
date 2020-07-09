@@ -1,0 +1,240 @@
+{% include es/head-post.liquid %}
+{% include es/header-post.liquid %}
+
+<script type='text/javascript'>
+   /* <![CDATA[ */
+   var us_script = {"ajaxurl":"/","tweet_via":"","success":"Great work! Your message was sent.","trying":"Trying to send email...","total_shares_text":"Shares","facebook_height":"500","facebook_width":"900","twitter_height":"500","twitter_width":"900","googleplus_height":"500","googleplus_width":"900","delicious_height":"550","delicious_width":"550","stumble_height":"550","stumble_width":"550","linkedin_height":"550","linkedin_width":"550","pinterest_height":"320","pinterest_width":"720","buffer_height":"500","buffer_width":"900","reddit_height":"500","reddit_width":"900","vkontakte_height":"500","vkontakte_width":"900","printfriendly_height":"500","printfriendly_width":"1045","pocket_height":"500","pocket_width":"900","tumblr_height":"500","tumblr_width":"900","flipboard_height":"500","flipboard_width":"900","weibo_height":"500","weibo_width":"900","xing_height":"500","xing_width":"900","ok_height":"500","ok_width":"900","managewp_height":"500","managewp_width":"900","meneame_height":"500","meneame_width":"900","digg_height":"500","digg_width":"900","home_url":"https:\/\/www.puffinsecurity.com","B":"B","M":"M","k":"k","nonce":"e402fbda62","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false","bitly":"false"};
+   /* ]]> */
+   </script>
+
+<a id="back_to_top" href="#">
+    <span class="fa-stack">
+    <i class="qode_icon_font_awesome fa fa-arrow-up" ></i>        </span>
+    </a>
+    <div class="content content_top_margin_none">
+       <div class="content_inner">
+          <div class="title_outer animate_title_area"    data-height="500">
+             <div class="title title_size_large  position_center" style="height:500px;background-color:#f2f2f2; background-image: url({{ page.image_src }});">
+                <div class="image not_responsive"></div>
+                <div class="title_overlay lazyload" style=""  data-bg="/assets/uploads/2018/07/Transparencia-40.png"></div>
+                <div class="title_holder"  style="padding-top:0;height:500px;">
+                   <div class="container">
+                      <div class="container_inner clearfix">
+                         <div class="title_subtitle_holder" >
+                            <div class="title_subtitle_holder_inner">
+                               <h1 ><span>{{ page.title }}</span></h1>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="container">
+             <div class="container_inner default_template_holder" >
+                <div class="two_columns_75_25 background_color_sidebar grid2 clearfix">
+                   <div class="column1">
+                      <div class="column_inner">
+                         <div class="blog_single blog_holder">
+                            <article id="post-3025" class="post-3025 post type-post status-publish format-standard hentry category-cyber-security">
+                               <div class="post_content_holder">
+                                  <div class="post_text">
+                                     <div class="post_text_inner">
+                                        <h2 itemprop="name" class="entry_title">
+                                           <span itemprop="dateCreated" class="date entry_date updated">
+                                              {{ page.date | date: "%-d %b"  }}
+                                              <meta itemprop="interactionCount" content="UserComments: 0"/>
+                                           </span>
+                                           {{ page.title }}
+                                        </h2>
+                                        {{ page.content }}
+                                        {% for author in site.authors_es %}
+                                        {% if page.author == author.name %}
+                                        <div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author">
+                                          <div class="saboxplugin-gravatar">
+                                             <a href="{{ author.url }}">
+                                                <img src="{% if author.avatar %} {{ author.avatar }} {% else %} /assets/uploads/2018/12/Puffin-Security-Symbol-300x300.png  {% endif %}" alt="{{ author.content }}" itemprop="image" data-src="{% if author.avatar %} {{ author.avatar }} {% else %} /assets/uploads/2018/12/Puffin-Security-Symbol-300x300.png  {% endif %}" alt="{{ author.content }}" loading="lazy" class=" ls-is-cached lazyloaded">
+                                                   <noscript>
+                                                      <img src="{% if author.avatar %} {{ author.avatar }} {% else %} /assets/uploads/2018/12/Puffin-Security-Symbol-300x300.png  {% endif %}" alt="{{ author.content }}" alt="{{ author.content }}" itemprop="image">
+                                                      </noscript>
+                                                   </a>
+                                                </div>
+                                                <div class="saboxplugin-authorname">
+                                                   <a href="{{ author.url }}" class="vcard author" rel="author" itemprop="url">
+                                                      <span class="fn" itemprop="name">{{ author.name }}</span>
+                                                   </a>
+                                                </div>
+                                                <div class="saboxplugin-desc">
+                                                   <div itemprop="description">
+                                                      <p>
+                                                         <span class="lt-line-clamp__line">
+                                                            {{ author.content }}
+                                                         </span>
+                                                      </p>
+                                                   </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="saboxplugin-socials">
+                                                   {% if author.linkedin %}
+                                                   <a target="_blank" href="{{ author.linkedin }}" rel="nofollow" class="saboxplugin-icon-grey">
+                                                      <svg aria-hidden="true" class="sab-linkedin" role="img"
+                                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                         <path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path>
+                                                      </svg>
+                                                   </a>
+                                                   {% endif %}
+                                                   {% if author.twitter %}
+                                                   <a target="_blank" href="{{ author.twitter }}" rel="nofollow" class="saboxplugin-icon-grey">
+                                                      <svg aria-hidden="true" class="sab-twitter" role="img"
+                                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                         <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                                      </svg>
+                                                   </a>
+                                                   {% endif %}
+                                                   {% if author.email %}
+                                                   <a target="_blank" href="mailto:{{ author.email }}" rel="nofollow" class="saboxplugin-icon-grey">
+                                                      <svg aria-hidden="true" class="sab-wordpress" role="img"
+                                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                         <path fill="currentColor" d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8.9 0 1.8.1 2.8.2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7.3 13.7.3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"></path>
+                                                      </svg>
+                                                   </a>
+                                                   {% endif %}
+                                                </div>
+                                             </div>
+                                          {% endif %}
+                                          {% endfor %}
+                                     </div>
+                                  </div>
+                               </div>
+                               {% if page.tags.size > 0 %}
+                               <div class="single_tags clearfix">
+                                 <div class="tags_text">
+                                    <h5>Tags:</h5>
+                                    {% for tag in site.tags_es %}
+                                       {% for pTag in page.tags %}
+                                          {% if pTag == tag.title %}
+                                             {% if forloop.index != 1 %}
+                                             ,
+                                             {% endif %}
+                                             <a href="{{ tag.url }}" rel="tag">{{ tag.title }}</a>
+                                          {% endif %}
+                                       {% endfor %}
+                                    {% endfor %}
+                                 </div>
+                              </div>
+                              {% endif %}
+
+                               <div class="icon_social_holder">
+                                  <div class="qode_print">
+                                     <a href="#" onclick="window.print();return false;" class="qode_print_page">
+                                     <span class="icon-basic-printer qode_icon_printer"></span>
+                                     <span class="eltd-printer-title">Print page</span>
+                                     </a>
+                                  </div>
+                               </div>
+
+
+                               <!-- <div class="author_description">
+                                  <div class="author_description_inner">
+                                     <div class="image">
+                                        <img alt='' src='/assets/ewww/lazy/placeholder-75x75.png'  class='avatar avatar-75 photo sab-custom-avatar lazyload' height='75' width='75' data-src="/assets/uploads/2019/02/0.jpg" data-srcset="/assets/uploads/2019/02/0.jpg 2x" loading="lazy" />
+                                        <noscript><img alt='' src='/assets/uploads/2019/02/0.jpg' srcset='/assets/uploads/2019/02/0.jpg 2x' class='avatar avatar-75 photo sab-custom-avatar' height='75' width='75' /></noscript>
+                                     </div>
+                                     <div class="author_text_holder">
+                                        <h5 class="author_name vcard author">
+                                           <span class="fu">
+                                           head-page.liquid			    </span>
+                                        </h5>
+                                        <span class="author_email">{{ page.author_email }}</span>
+                                        <div class="author_text">
+                                           <p>Cyber Security Consultant en Puffin Security</p>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div> -->
+                            </article>
+                         </div>
+                         <div class="comment_holder clearfix" id="comments">
+                            <div class="comment_number">
+                               <div class="comment_number_inner">
+                                  <h5><span class="dsq-postid" data-dsqidentifier="3025 /?p=3025">No Comments</span></h5>
+                               </div>
+                            </div>
+                            <div class="comments">
+                               <!-- If comments are open, but there are no comments. -->
+                               <!-- If comments are closed. -->
+                               <p>Sorry, the comment form is closed at this time.</p>
+                            </div>
+                         </div>
+                         <div class="comment_pager">
+                            <p></p>
+                         </div>
+                         <div class="comment_form">
+                         </div>
+                      </div>
+                   </div>
+                   <div class="column2">
+                      <div class="column_inner">
+                         <aside class="sidebar">
+                         </aside>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="us_floating">
+      <div class="us_floating_outer_wrapper" style="display:none;">
+         <div class="us_wrapper us_share_buttons us_tac us_skin_default" data-text="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}" data-ajaxnetworks="facebook,linkedin">
+            <div class="us_facebook us_first us_no_count us_button">
+               <a class="us_box" href="#">
+                  <div class="us_share"><i class="us-icon-facebook"></i></div>
+               </a>
+            </div>
+            <div class="us_twitter us_no_count us_button">
+               <a class="us_box" href="#">
+                  <div class="us_share"><i class="us-icon-twitter"></i></div>
+               </a>
+            </div>
+            <div class="us_linkedin us_no_count us_button">
+               <a class="us_box" href="#">
+                  <div class="us_share"><i class="us-icon-linkedin"></i></div>
+               </a>
+            </div>
+            <div class="us_wrapper us_modal mfp-hide" id="us-modal-oBxqi">
+               <div class="us_heading">Share with your friends</div>
+               <div class="us_mail_response"></div>
+               <div class="us_mail_form_holder">
+                  <form role="form" id="ajaxcontactform" class="form-group contact" action="" method="post" enctype="multipart/form-data">
+                     <div class="form-group"><label class="label" for="ajaxcontactyour_name">Your Name</label><br><input type="text" id="ajaxcontactyour_name" class="border-box form-control us_mail_your_name" name="Your Name" placeholder="Your Name"><br><label class="label" for="ajaxcontactyour_email">Your Email</label><br><input type="email" id="ajaxcontactyour_email" class="border-box form-control us_mail_your_email" name="Your Email" placeholder="Your Email"><br><label class="label" for="ajaxcontactrecipient_email">Recipient Email</label><br><input type="email" id="ajaxcontactrecipient_email" class="border-box form-control us_mail_recipient_email" name="Recipient Email" placeholder="Recipient Email"><br><label class="label" for="ajaxcontactmessage">Enter a Message</label><br><textarea class="border-box form-control border-us_box us_mail_message" id="ajaxcontactmessage" name="Enter a Message" placeholder="Enter a Message">I read this article and found it very interesting, thought it might be something for you. The article is called The Boogeyman is coming: IoT cybersecurity  and is located at  https://www.puffinsecurity.com/the-boogeyman-is-coming-iot-cybersecurity/.</textarea><input type="email" id="ajaxcontactrecipient_url" class="border-box form-control us_mail_url" style="display:none;" name="https://www.puffinsecurity.com/the-boogeyman-is-coming-iot-cybersecurity/" placeholder="https://www.puffinsecurity.com/the-boogeyman-is-coming-iot-cybersecurity/"><br></div>
+                     <div class="form-group"><label class="label" for="ajaxcontactcaptcha">Captcha</label><br><input type="text" id="ajaxcontactcaptcha" class="border-box form-control us_mail_captcha" name="Captcha" placeholder="What is the sum of 7 and 2?"><br></div>
+                  </form>
+                  <a class="btn btn-success us_mail_send">Submit</a>
+               </div>
+            </div>
+            <div class="us_mail us_button us_no_count">
+               <a class="us_box" href="#" data-href="#us-modal-oBxqi">
+                  <div class="us_share"><i class="us-icon-mail"></i></div>
+               </a>
+            </div>
+            <div class="us_pocket us_last us_no_count us_button">
+               <a class="us_box" href="#">
+                  <div class="us_share"><i class="us-icon-pocket"></i></div>
+               </a>
+            </div>
+         </div>
+         <a href="#" class="us_floating_hide"><i class="us-icon-caret-left"></i></a>
+      </div>
+   </div>
+   <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<script type='text/javascript'>
+   /* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"{{ page.disqus_identifier }}","disqusShortname":"{{ site.title }}","disqusTitle":"{{ post.title }}","postId":"{{ post.id }}"};
+   /* ]]> */
+</script>
+
+
+{% include es/footer.liquid %}

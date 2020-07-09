@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8" />
+      <title>{{ page.title }} | {{ site.title }}</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <link rel="preload" href="/assets/plugins/gdpr-cookie-compliance/dist/styles/lity.css" as="style"/>
+      <link rel="shortcut icon" type="image/x-icon" href="/assets/uploads/2018/12/Puffin-Security-Symbol-300x300.png">
+      <link rel="apple-touch-icon" href="/assets/uploads/2018/12/Puffin-Security-Symbol-300x300.png"/>
+      <link href='//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Montserrat:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Nunito:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Work+Sans:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link rel="alternate" hreflang="en" href="/" />
+      <link rel="alternate" hreflang="es" href="/es/" />
+      <meta name="description" content="{{ site.description }}" />
+      <meta name="robots" content="index, follow" />
+      <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+      <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+      <link rel="canonical" href="/" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="{{ page.title }}|{{ site.title }}" />
+      <meta property="og:description" content="{{ page.description }}" />
+      {% if page.og_image %}
+      <meta property="og:image" content="{{ page.og_image }}" />
+      {% endif %}
+      <meta property="og:url" content="/" />
+      <meta property="og:site_name" content="{{ site.title }}" />
+      <meta property="article:publisher" content="https://facebook.com/{{ site.facebook }}" />
+      <meta property="article:modified_time" content="{{ page.created }}" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content="{{ site.twitter }}" />
+      <meta name="twitter:site" content="{{ site.twitter }}" />
+      <link rel='dns-prefetch' href='//s.w.org' />
+      <link rel="alternate" type="application/rss+xml" title="{{ site.alternateFeeds }}" href="/feed/" />
+      <link rel="alternate" type="application/rss+xml" title="{{ site.alternateComment }}" href="/comments/feed/" />
+      <link rel='stylesheet' id='wp-block-library-css'  href='/assets/css/dist/block-library/style.min.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='bcct_style-css'  href='/assets/plugins/better-click-to-tweet/assets/css/styles.css?ver=3.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='contact-form-7-css'  href='/assets/plugins/contact-form-7/includes/css/styles.css?ver=5.1.7' type='text/css' media='all' />
+      <link rel='stylesheet' id='rs-plugin-settings-css'  href='/assets/plugins/revslider/public/assets/css/rs6.css?ver=6.1.0' type='text/css' media='all' />
+      <link rel='stylesheet' href='/assets/css/default.css' type='text/css' media='all' />
+      {%  if page.customCss %}
+      <link rel='stylesheet' href='/assets/css/{{ page.customCss }}' type='text/css' media='all' />
+      {%  endif %}
+      
+      <link rel='stylesheet' id='dlm-frontend-css'  href='/assets/plugins/download-monitor/assets/css/frontend.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='us-plugin-styles-css'  href='/assets/plugins/ultimate-social-deux/public/assets/css/style.css?ver=6.0.7' type='text/css' media='all' />
+      <link rel='stylesheet' id='default_style-css'  href='/assets/themes/bridge/style.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='qode_font_awesome-css'  href='/assets/themes/bridge/css/font-awesome/css/font-awesome.min.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='qode_font_elegant-css'  href='/assets/themes/bridge/css/elegant-icons/style.min.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='qode_linea_icons-css'  href='/assets/themes/bridge/css/linea-icons/style.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='qode_dripicons-css'  href='/assets/themes/bridge/css/dripicons/dripicons.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='stylesheet-css'  href='/assets/themes/bridge/css/stylesheet.min.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='qode_print-css'  href='/assets/themes/bridge/css/print.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='style_dynamic-css'  href='/assets/themes/bridge/css/style_dynamic.css?ver=1578693790' type='text/css' media='all' />
+      <link rel='stylesheet' id='responsive-css'  href='/assets/themes/bridge/css/responsive.min.css?ver=5.3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='style_dynamic_responsive-css'  href='/assets/themes/bridge/css/style_dynamic_responsive.css?ver=1578693845' type='text/css' media='all' />
+      <link rel='stylesheet' id='js_composer_front-css'  href='/assets/plugins/js_composer/assets/css/js_composer.min.css?ver=5.6' type='text/css' media='all' />
+      <link rel='stylesheet' id='custom_css-css'  href='/assets/themes/bridge/css/custom_css.css?ver=1578693844' type='text/css' media='all' />
+      <link rel='stylesheet' id='moove_gdpr_frontend-css'  href='/assets/plugins/gdpr-cookie-compliance/dist/styles/gdpr-main.css?ver=4.1.9' type='text/css' media='all' />
+      <script type='text/javascript' src='/assets/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+      <script type='text/javascript' src='/assets/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+      <script type='text/javascript' src='/assets/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0'></script>
+      <script type='text/javascript' src='/assets/plugins/revslider/public/assets/js/rs6.min.js?ver=6.1.0'></script>
+      <script type='text/javascript' src='/assets/plugins/ultimate-social-deux/public/assets/js/min/us.script-min.js?ver=6.0.7'></script>
+      <script type='text/javascript'>
+         /* <![CDATA[ */
+         var us_native_script = {"vkontakte_appid":"","facebook_appid":""};
+         /* ]]> */
+      </script>
+      <script type='text/javascript' src='/assets/plugins/ultimate-social-deux/public/assets/js/min/us.native-min.js?ver=6.0.7'></script>
+      <script type='text/javascript' src='/assets/plugins/ultimate-social-deux/public/assets/js/min/jquery.cookie-min.js?ver=1.0'></script>
+      <script type='text/javascript' src='/assets/plugins/ultimate-social-deux/public/assets/js/min/jquery.magnific-popup-min.js?ver=1.0'></script>
+      <script type='text/javascript' src='/assets/plugins/ultimate-social-deux/public/assets/js/min/jquery.sticky-min.js?ver=1.0'></script>
+      <script type='text/javascript' src='/assets/plugins/ultimate-social-deux/public/assets/js/min/jquery.fittext-min.js?ver=1.2'></script>
+      <script type='text/javascript' src='/assets/plugins/ultimate-social-deux/public/assets/js/min/jquery.tooltipster-min.js?ver=3.3'></script>
+      <script type='text/javascript'>
+         /* <![CDATA[ */
+         var eio_lazy_vars = {"exactdn_domain":""};
+         /* ]]> */
+      </script>
+      <script type='text/javascript' src='/assets/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=531'></script>
+      <style type="text/css" media="screen"></style>
+     
+      <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+      <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+      <!--[if lte IE 9]>
+      <link rel="stylesheet" type="text/css" href="/assets/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen">
+      <![endif]-->
+      <noscript>
+         <style>.lazyload[data-src]{display:none !important;}</style>
+      </noscript>
+      <noscript>
+         <style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
+      </noscript>
+   </head>
+   <body class="home page-template page-template-full_width page-template-full_width-php page page-id-1989  qode-title-hidden side_menu_slide_from_right footer_responsive_adv hide_top_bar_on_mobile_header qode-content-sidebar-responsive qode-theme-ver-17.1 qode-theme-bridge qode_advanced_footer_responsive_1000 wpb-js-composer js-comp-ver-5.6 vc_responsive" itemscope itemtype="http://schema.org/WebPage">

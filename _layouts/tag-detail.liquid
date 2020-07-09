@@ -1,0 +1,93 @@
+{% include head.liquid %}
+{% include header.liquid %}
+
+<a id="back_to_top" href="#">
+    <span class="fa-stack">
+    <i class="qode_icon_font_awesome fa fa-arrow-up" ></i>        </span>
+    </a>
+    <div class="content content_top_margin_none">
+       <div class="content_inner">
+          <div class="title_outer animate_title_area"    data-height="500">
+             <div class="title title_size_large  position_center" style="height:500px;background-color:#f2f2f2;">
+                <div class="image not_responsive"></div>
+                <div class="title_overlay lazyload" style="" data-bg="/assets/uploads/2018/07/Transparencia-40.png"></div>
+                <div class="title_holder"  style="padding-top:0;height:500px;">
+                   <div class="container">
+                      <div class="container_inner clearfix">
+                         <div class="title_subtitle_holder" >
+                            <div class="title_subtitle_holder_inner">
+                               <h1 ><span>{{ page.title }}</span></h1>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="container">
+             <div class="container_inner default_template_holder clearfix">
+                <div class="two_columns_75_25 background_color_sidebar grid2 clearfix">
+                   <div class="column1">
+                      <div class="column_inner">
+                         <div class="blog_holder blog_large_image">
+                            {% for post in site.blogs_en %}
+                                {% for pTag in post.tags %}
+                                    {% if page.title == pTag %}
+                                    
+                                        <article id="post-614" class="post-614 post type-post status-publish format-standard has-post-thumbnail hentry category-exploiting tag-32-bit tag-aslr tag-aslr-bypass tag-buffer-overflow tag-buffer-overrun tag-bypass tag-exploit tag-exploiting tag-gadget tag-linux tag-overflow tag-overrun tag-re2lib tag-ret2libc tag-ropgadget tag-shellcode tag-stack tag-stack-based tag-stack-overflow tag-x86">
+                                          
+                                          <div class="post_content_holder">
+                                             {%  if post.image_src %}
+                                            <div class="post_image">
+                                                <a itemprop="url" href="{{ post.url }}" title="{{ post.title }}">
+                                                    <img width="1920" height="1280" src="/assets/ewww/lazy/placeholder-1920x1280.png" class="attachment-full size-full wp-post-image lazyload" alt="{{ post.title }}"   data-src="{{ post.image_src }}"  data-sizes="auto" loading="lazy" />
+                                                    <noscript><img width="1920" height="1280" src="{{ post.image_src }}" class="attachment-full size-full wp-post-image" alt="{{ post.title }}"/></noscript>
+                                                </a>
+                                            </div>
+                                            {% endif %}
+                                            <div class="post_text">
+                                                <div class="post_text_inner">
+                                                    <h2 itemprop="name" class="entry_title">
+                                                    <span itemprop="dateCreated" class="date entry_date updated">
+                                                        {{ post.date | date: "%-d b" }}
+                                                        <meta itemprop="interactionCount" content="UserComments: 0"/>
+                                                    </span>
+                                                    <a itemprop="url" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                                                    </h2>
+                                                    <div class="post_info">
+                                                    <span class="time">Posted at {{ post.date  | date: "%H:%M" }} </span>
+                                                    in <a href="/category/exploiting/" rel="category tag">Exploiting</a>                                                            <span class="post_author">
+                                                    by                                    <a itemprop="author" class="post_author_link" href="/author/yago-gutierrez/">Yago Gutierrez</a>
+                                                    </span>
+                                                    <span class="dots"><i class="fa fa-square"></i></span><a itemprop="url" class="post_comments" href="{{ post.url }}#respond" target="_self"><span class="dsq-postid" data-dsqidentifier="614 ">0 Comments</span></a>
+                                                    </div>
+                                                    <p itemprop="description" class="post_excerpt">{{ post.content | truncate: 268 }}
+                                                    </p>
+                                                    <div class="post_more">
+                                                    <a itemprop="url" href="{{ post.url }}" class="qbutton small">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </article>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                            
+                         </div>
+                      </div>
+                   </div>
+                   <div class="column2">
+                      <div class="column_inner">
+                         <aside class="sidebar">
+                         </aside>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+
+
+{% include footer.liquid %}

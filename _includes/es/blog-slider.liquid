@@ -1,0 +1,178 @@
+<div class="wpb_revslider_element wpb_content_element">
+    <!-- START News REVOLUTION SLIDER 6.1.0 -->
+    <p class="rs-p-wp-fix"></p>
+
+    <rs-module-wrap id="rev_slider_28_1_wrapper" data-source="post" style="background:#ffffff;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+       <rs-module id="rev_slider_28_1" style="display:none;" data-version="6.1.0">
+        
+           <rs-slides>
+            {% for post in paginator.posts %}
+                <rs-slide data-key="rs-{{ post.id | remove : " " | remove : "/"  }}" data-title="{{ post.title }}" data-anim="ei:d;eo:d;s:-80;r:0;t:parallaxvertical;sl:d;" data-firstanim="t:fade;s:1500;sl:7;" data-p1="{{ post.catagories[0] }}">
+                    <img src="{{ post.image_src }}" title="Cyber Security Blog" data-parallax="10" class="rev-slidebg" data-no-retina>
+                    <!--
+                    -->
+                    <rs-layer
+                    id="{{  post.id | remove : " " | remove : "/"  }}-layer-3" 
+                    class="tp-shape tp-shapewrapper"
+                    data-type="shape"
+                    data-rsp_ch="on"
+                    data-xy="x:c;y:m;"
+                    data-text="w:normal;fw:700;"
+                    data-dim="w:100%;h:100%;"
+                    data-basealign="slide"
+                    data-frame_0="o:1;tp:600;"
+                    data-frame_1="tp:600;sp:10;sR:10;"
+                    data-frame_999="o:0;tp:600;st:w;sp:1000;sR:8980;"
+                    style="z-index:5;background-color:rgba(0,0,0,0.35);"
+                    > 
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer
+                    id="{{ post.id | remove : " " | remove : "/"  }}-layer-1" 
+                    class="Newspaper-Title"
+                    data-type="text"
+                    data-color="rgba(255, 255, 255, 1)"
+                    data-rsp_ch="on"
+                    data-xy="xo:50px,57px,80px,40px;yo:165px,69px,253px,189px;"
+                    data-text="w:normal;s:50,60,60,40;l:55,70,70,50;fw:600;"
+                    data-dim="w:600px,600px,600px,420px;"
+                    data-padding="b:10;"
+                    data-frame_0="y:-100%;o:1;tp:600;"
+                    data-frame_0_mask="u:t;"
+                    data-frame_1="tp:600;st:1000;sp:1500;sR:1000;"
+                    data-frame_1_mask="u:t;"
+                    data-frame_999="st:w;sp:1000;auto:true;"
+                    data-frame_999_mask="u:t;"
+                    style="z-index:6;font-family:Montserrat;"
+                    >{{ post.title }}
+                    </rs-layer>
+                    <!--
+                    --><a
+                    id="{{ post.id | remove : " " | remove : "/"  }}-layer-5" 
+                    class="rs-layer Newspaper-Button rev-btn"
+                    href="{{ post.url }}" target="_self"
+                    data-type="button"
+                    data-color="rgba(255, 255, 255, 1)"
+                    data-xy="xo:53px,61px,84px,50px;yo:361px,334px,498px,520px;"
+                    data-text="s:13;l:17;fw:600,700,700,700;"
+                    data-rsp_bd="off"
+                    data-padding="t:12;r:35;b:12;l:35;"
+                    data-border="bos:solid;boc:rgba(255, 255, 255, 0.5);bow:2px,2px,2px,2px;"
+                    data-frame_0="y:-100%;o:1;tp:600;"
+                    data-frame_0_mask="u:t;"
+                    data-frame_1="tp:600;st:1000;sp:1500;sR:1000;"
+                    data-frame_1_mask="u:t;"
+                    data-frame_999="st:w;sp:1000;auto:true;"
+                    data-frame_999_mask="u:t;"
+                    data-frame_hover="c:#000;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;e:Power1.easeInOut;"
+                    style="z-index:7;font-family:Open Sans;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:2px;"
+                    >READ MORE 
+                    </a><!--
+                    -->						
+                </rs-slide>
+                {% endfor %}
+          </rs-slides>
+          
+          <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+
+          <rs-tabs style="opacity: 1; max-width: 250px; max-height: 320px; overflow: visible; position: absolute; background: transparent; padding: 0px; top: 50%; transform: matrix(1, 0, 0, 1, -280, -160); left: 100%; visibility: inherit;" class="tp-tabs  inner hebe nav-pos-hor-right nav-pos-ver-center nav-dir-vertical">
+            <rs-navmask class="tp-tab-mask" style="max-width: 891px; max-height: 320px; overflow: hidden; position: relative;">
+               <rs-tabs-wrap class="tp-tabs-inner-wrapper" style="position: relative; height: 1200px; width: 250px; top: -110px;">
+                {% for post in paginator.posts  %}
+                <rs-tab data-liindex="{{ forloop.index }}" data-key="rs-{{ post.id | remove : " " | remove : "/"  }}" class="tp-tab" style="width: 250px; height: 100px; top: 0px; left: 0px; position: relative !important;">
+                     <div class="tp-tab-title">Cyber security</div>
+                     <div class="tp-tab-desc">{{ post.title }}</div>
+                     <rs-tab></rs-tab>
+                  </rs-tab>
+                {% endfor %}
+
+               </rs-tabs-wrap>
+            </rs-navmask>
+         </rs-tabs>
+       </rs-module>
+       <script type="text/javascript">
+          setREVStartSize({c: 'rev_slider_28_1',rl:[1240,1024,778,480],el:[],gw:[1240,1024,778,480],gh:[500,450,800,700],layout:'fullwidth',mh:"0"});
+          var	revapi28,
+              tpj;
+          jQuery(function() {
+              tpj = jQuery;
+              if(tpj("#rev_slider_28_1").revolution == undefined){
+                  revslider_showDoubleJqueryError("#rev_slider_28_1");
+              }else{
+                  revapi28 = tpj("#rev_slider_28_1").show().revolution({
+                      jsFileLocation:"/assets/plugins/revslider/public/assets/js/",
+                      sliderLayout:"fullwidth",
+                      visibilityLevels:"1240,1024,778,480",
+                      gridwidth:"1240,1024,778,480",
+                      gridheight:"500,450,800,700",
+                      minHeight:"",
+                      responsiveLevels:"1240,1024,778,480",
+                      disableProgressBar:"on",
+                      navigation: {
+                          keyboardNavigation:true,
+                          mouseScrollNavigation:false,
+                          onHoverStop:false,
+                          touch: {
+                              touchenabled:true
+                          },
+                          arrows: {
+                              enable:true,
+                              style:"custom",
+                              hide_over:778,
+                              left: {
+                                  h_align:"right",
+                                  v_align:"bottom",
+                                  h_offset:40
+                              },
+                              right: {
+                                  v_align:"bottom",
+                                  h_offset:0
+                              }
+                          },
+                          tabs: {
+                              enable:true,
+                              tmp:"<div class=\"tp-tab-title\">{{param1}}</div><div class=\"tp-tab-desc\">{{title}}</div>",
+                              style:"hebe",
+                              hide_onmobile:true,
+                              hide_under:778,
+                              h_align:"right",
+                              v_align:"center",
+                              h_offset:30,
+                              v_offset:0,
+                              direction:"vertical",
+                              space:10,
+                              width:250,
+                              height:100,
+                              min_width:250,
+                              wrapper_padding:0,
+                              wrapper_color:"transparent",
+                              visibleAmount:3
+                          }
+                      },
+                      parallax: {
+                          levels:[5,10,15,20,25,30,35,40,45,50,47,48,49,50,51,55],
+                          type:"scroll"
+                      },
+                      fallbacks: {
+                          allowHTML5AutoPlayOnAndroid:true
+                      },
+                  });
+              }
+              
+          });
+       </script>
+       <script>
+          var htmlDivCss = unescape("%23rev_slider_28_1_wrapper%20.custom.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3A%23000%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A1000%3B%0A%7D%0A%23rev_slider_28_1_wrapper%20.custom.tparrows%3Ahover%20%7B%0A%09background%3A%23000%3B%0A%7D%0A%23rev_slider_28_1_wrapper%20.custom.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%27revicons%27%3B%0A%09font-size%3A15px%3B%0A%09color%3A%23fff%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A%23rev_slider_28_1_wrapper%20.custom.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%27%5Ce824%27%3B%0A%7D%0A%23rev_slider_28_1_wrapper%20.custom.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%27%5Ce825%27%3B%0A%7D%0A%0A%0A%23rev_slider_28_1_wrapper%20.hebe%20.tp-tab-title%20%7B%0A%20%20%20%20color%3A%23a8d8ee%3B%0A%20%20%20%20font-size%3A13px%3B%0A%20%20%20%20font-weight%3A700%3B%0A%20%20%20%20text-transform%3Auppercase%3B%0A%20%20%20%20font-family%3A%27Roboto%20Slab%27%0A%20%20%20%20margin-bottom%3A5px%3B%0A%7D%0A%0A%23rev_slider_28_1_wrapper%20.hebe%20.tp-tab-desc%20%7B%0A%09font-size%3A18px%3B%0A%20%20%20%20font-weight%3A400%3B%0A%20%20%20%20color%3A%23ffffff%3B%0A%20%20%20%20line-height%3A25px%3B%0A%09font-family%3A%27Roboto%20Slab%27%3B%0A%7D%0A%0A");
+          var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+          if(htmlDiv) {
+              htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+          }else{
+              var htmlDiv = document.createElement('div');
+              htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+              document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+          }
+       </script>
+    </rs-module-wrap>
+    <!-- END REVOLUTION SLIDER -->
+ </div>

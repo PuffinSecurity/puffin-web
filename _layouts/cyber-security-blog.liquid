@@ -1,0 +1,192 @@
+{% include head.liquid %}
+{% include header.liquid %}
+
+<script type="text/javascript">function setREVStartSize(a){try{var b,c=document.getElementById(a.c).parentNode.offsetWidth;if(c=0===c||isNaN(c)?window.innerWidth:c,a.tabw=void 0===a.tabw?0:parseInt(a.tabw),a.thumbw=void 0===a.thumbw?0:parseInt(a.thumbw),a.tabh=void 0===a.tabh?0:parseInt(a.tabh),a.thumbh=void 0===a.thumbh?0:parseInt(a.thumbh),a.tabhide=void 0===a.tabhide?0:parseInt(a.tabhide),a.thumbhide=void 0===a.thumbhide?0:parseInt(a.thumbhide),a.mh=void 0===a.mh||""==a.mh?0:a.mh,"fullscreen"===a.layout||"fullscreen"===a.l)b=Math.max(a.mh,window.innerHeight);else{for(var d in a.gw=Array.isArray(a.gw)?a.gw:[a.gw],a.rl)(void 0===a.gw[d]||0===a.gw[d])&&(a.gw[d]=a.gw[d-1]);for(var d in a.gh=void 0===a.el||""===a.el||Array.isArray(a.el)&&0==a.el.length?a.gh:a.el,a.gh=Array.isArray(a.gh)?a.gh:[a.gh],a.rl)(void 0===a.gh[d]||0===a.gh[d])&&(a.gh[d]=a.gh[d-1]);var e,f=Array(a.rl.length),g=0;for(var d in a.tabw=a.tabhide>=c?0:a.tabw,a.thumbw=a.thumbhide>=c?0:a.thumbw,a.tabh=a.tabhide>=c?0:a.tabh,a.thumbh=a.thumbhide>=c?0:a.thumbh,a.rl)f[d]=a.rl[d]<window.innerWidth?0:a.rl[d];for(var d in e=f[0],f)e>f[d]&&0<f[d]&&(e=f[d],g=d);var h=c>a.gw[g]+a.tabw+a.thumbw?1:(c-(a.tabw+a.thumbw))/a.gw[g];b=a.gh[g]*h+(a.tabh+a.thumbh)}void 0===window.rs_init_css&&(window.rs_init_css=document.head.appendChild(document.createElement("style"))),document.getElementById(a.c).height=b,window.rs_init_css.innerHTML+="#"+a.c+"_wrapper { height: "+b+"px }"}catch(a){console.log("Failure at Presize of Slider:"+a)}};</script>
+
+<a id="back_to_top" href="#">
+    <span class="fa-stack">
+    <i class="qode_icon_font_awesome fa fa-arrow-up" ></i>        </span>
+    </a>
+    <div class="content content_top_margin_none">
+       <div class="content_inner">
+          <div class="container">
+             <div class="container_inner default_template_holder" >
+                <div class="two_columns_75_25 background_color_sidebar grid2 clearfix">
+                   <div class="column1">
+                      <div class="column_inner">
+                         <div class="vc_row wpb_row section vc_row-fluid  vc_custom_1461763813473" style=' text-align:left;'>
+                            <div class="full_section_inner clearfix">
+                               <div class="wpb_column vc_column_container vc_col-sm-12">
+                                  <div class="vc_column-inner vc_custom_1548198829145">
+                                     <div class="wpb_wrapper">
+                                        {% include blog-slider.liquid %}
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+<!-- 
+    ==================================================================================================
+    ==================================================================================================
+    ==================================================================================================
+    ==================================================================================================
+    ======================================== BLOG HERE ===============================================
+    ==================================================================================================
+    ==================================================================================================
+    ================================================================================================== -->
+                         <div class="blog_holder blog_large_image_with_dividers">
+                            {% for post in paginator.posts %}
+                            <article id="post-3025" class="post-3025 post type-post status-publish format-standard hentry category-cyber-security">
+                               <div class="post_content_holder">
+                                  
+                                  {%  if post.image_src %}
+                                 <div class="post_image">
+                                    <a itemprop="url" href="{{ post.url | relative_url }}" >
+                                       <img width="1920" height="1280" src="{{ post.image_src }}" class="attachment-full size-full wp-post-image lazyload" alt="{{ post.title }}"   data-src="{{ post.image_src }}" data-sizes="auto" loading="lazy" />
+                                       <noscript><img width="{{ post.image_width }}" height="{{ post.image_height }}" src="{{ post.image_src }}" class="attachment-full size-full wp-post-image" alt="{{ post.title }}" /></noscript>
+                                    </a>
+                                 </div>
+                                 {% endif %}
+                                  <div class="post_text">
+                                     <div class="post_text_inner">
+                                        <div class="post_text_holder">
+                                           <div class="blog_column1">
+                                              <div itemprop="dateCreated" class="date entry_date updated">
+                                                 <span class="date_day">{{ post.date | date: "%-d" }}</span>
+                                                 <span class="date_month">{{ post.date  | date: "%b" }}</span>
+                                                 <meta itemprop="interactionCount" content="UserComments: 0"/>
+                                              </div>
+                                           </div>
+                                           <div class="blog_column2">
+                                              <h2 itemprop="name" class="entry_title"><a itemprop="url" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                                              <p itemprop="description" class="post_excerpt">
+                                                {{ post.description | truncate: 268 }}
+                                              </p>
+                                              <div class="post_info">
+                                                 <div class="post_info_left">
+                                                    <span class="blog_time">{{ post.date  | date: "%H:%M" }} / </span>
+                                                    
+                                                    <!-- 1 -->
+                                                    <!-- for catagory in post.catagories %} -->
+                                                    <!-- 2 -->
+                                                      <!-- {{ post.categories  }} -->
+                                                      {% for category in post.categories %}
+                                                         {% for cat in site.categories_en %}
+                                                            {% if cat.title == category %}
+                                                               <a href="{{ cat.url }}" rel="category tag">{{ cat.title }}</a> /
+                                                            {% endif %}
+                                                         {% endfor %}
+                                                      {% endfor %}
+
+                                                    <!-- endfor %} -->
+                                                    <span class="post_author">
+                                                      {% for author in site.authors_es %}
+                                                         {% if author.name == post.author %}
+                                                            <a itemprop="author" class="post_author_link" href="{{ author.url }}"> {{ author.name }}</a>
+                                                         {% endif %}
+                                                      {% endfor %}
+                                                    </span>
+                                                 </div>
+                                                 <div class="post_info_right">
+                                                    <a itemprop="url" class="post_comments" href="{{ post.url | relative_url }}" target="_self">
+                                                    <span class="dsq-postid" data-dsqidentifier="{{ post.disqus_identifier }}">{{ post.comments_value }}</span>											</a>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </article>
+                            {% endfor %}
+
+                            {% if paginator.total_pages > 1 %}
+                            <div class='pagination'>
+                               <ul>
+                                  {% if paginator.previous_page %}
+                                 
+                                    {% if paginator.page  == 2 %}
+                                       <li class='prev'><a itemprop='url' href='/cyber-security-blog/blog'><i class='fa fa-angle-left'></i></a></li>
+                                    {% else %}
+                                       <li class='prev'><a itemprop='url' href='/cyber-security-blog/{{  paginator.page | minus: 1 }}/blog'><i class='fa fa-angle-left'></i></a></li>
+                                    {% endif %}
+                                  {% else %}
+                                  <li class='prev'><a itemprop='url' disabled href='#'><i class='fa fa-angle-left'></i></a></li>
+                                  {% endif %}
+
+                                  {% for page in (1..paginator.total_pages) %}
+                                  {% if page == paginator.page %}
+                                  <li class='active'>
+                                      <span>{{ page }}</span>
+                                    </li>
+                                  {% else %}
+                                  <li>
+                                     {% if  page == 1 %}
+                                      <a itemprop='url' href='/cyber-security-blog/blog' class='inactive'>{{ page }}</a>
+                                     {% else %}
+                                     <a itemprop='url' href='/cyber-security-blog/{{ page }}/blog' class='inactive'>{{ page }}</a>
+                                     {% endif %}
+
+                                  </li>
+                                  {% endif %}
+
+                                  {% endfor %}
+
+                                  {% if paginator.next_page %}
+                                  <li class='next'><a href="/cyber-security-blog/{{  paginator.page | plus: 1 }}/blog"><i class='fa fa-angle-right'></i></a></li>
+                                  {% endif %}
+                               </ul>
+                            </div>
+                            {% endif %}
+
+                         </div>
+                      </div>
+                   </div>
+                   <div class="column2">
+                      <div class="column_inner">
+                         <aside class="sidebar">
+                         </aside>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="content_bottom" style="background-color:#2163d3;">
+             <div class="widget_text widget widget_custom_html">
+                <div class="textwidget custom-html-widget">
+                   <div      class="vc_row wpb_row section vc_row-fluid  vc_custom_1546215199348" style=' text-align:left;'>
+                      <div class="full_section_inner clearfix">
+                         <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner">
+                               <div class="wpb_wrapper">
+                                  <div class="qode-advanced-call-to-action" style="height:168px">
+                                     <a class="advanced-cta-link" href="/contact-us" target="_self" rel="noopener noreferrer"></a>
+                                     <div class="qode-advanced-cta-content">		
+                                        <span class="qode-advanced-cta-text-holder" style="color:#ffffff;font-size:25px">
+                                        Start NOW mitigating risks	    </span>
+                                        <span class="qode-advanced-cta-icon-holder" style="color:#ffffff;font-size:38px;font-weight:600;height:45px;width:45px">
+                                        <span class="qode-advanced-cta-icon-holder-table">
+                                        <span class="qode-advanced-cta-icon-holder-cell" >
+                                        <span aria-hidden="true" class="qode_icon_font_elegant arrow_right qode-advanced-cta-icon" ></span>			    </span>
+                                        </span>
+                                        </span>
+                                     </div>
+                                     <div class="qode-advanced-cta-background-holder">
+                                        <span class="qode-advanced-cta-background-1 qode-type1-gradient-left-to-right"></span>
+                                        <span class="qode-advanced-cta-background-2 qode-type1-gradient-left-to-right"></span>
+                                        <span class="qode-advanced-cta-background-3"></span>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+
+{% include footer.liquid %}
