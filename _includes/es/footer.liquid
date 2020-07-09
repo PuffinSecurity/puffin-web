@@ -173,6 +173,8 @@
     var qodeLike = {"ajaxurl":"https:\/\/\/wp-admin\/admin-ajax.php"};
     /* ]]> */
  </script>
+ 
+ <script type='text/javascript' src='/assets/plugins/wpcf7-redirect/js/wpcf7-redirect-script.js'></script>
  <script type='text/javascript' src='/assets/themes/bridge/js/plugins/qode-like.min.js?ver=5.3.3'></script>
  <script type='text/javascript' src='/assets/js/jquery/ui/core.min.js?ver=1.11.4'></script>
  <script type='text/javascript' src='/assets/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
@@ -187,14 +189,14 @@
  <script type='text/javascript' src='/assets/js/dist/a11y.min.js?ver=2.5.1'></script>
  <script type='text/javascript'>
     /* <![CDATA[ */
-    var uiAutocompleteL10n = {"noResults":"No se han encontrado resultados.","oneResult":"1 resultado encontrado. Utiliza las teclas de flecha arriba y abajo para navegar.","manyResults":"%d resultados encontrados. Utiliza las teclas arriba y abajo para navegar.","itemSelected":"Elemento seleccionado."};
+    var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
     /* ]]> */
  </script>
  <script type='text/javascript' src='/assets/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
  <script type='text/javascript' src='/assets/js/jquery/ui/button.min.js?ver=1.11.4'></script>
  <script type='text/javascript' src='/assets/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
  <script type='text/javascript'>
-    jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Cerrar","currentText":"Hoy","monthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"monthNamesShort":["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"nextText":"Siguiente","prevText":"Anterior","dayNames":["domingo","lunes","martes","mi\u00e9rcoles","jueves","viernes","s\u00e1bado"],"dayNamesShort":["Dom","Lun","Mar","Mi\u00e9","Jue","Vie","S\u00e1b"],"dayNamesMin":["D","L","M","X","J","V","S"],"dateFormat":"d MM, yy","firstDay":1,"isRTL":false});});
+    jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"d MM, yy","firstDay":1,"isRTL":false});});
  </script>
  <script type='text/javascript' src='/assets/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
  <script type='text/javascript' src='/assets/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
@@ -240,23 +242,18 @@
  <script type='text/javascript' src='/assets/themes/bridge/js/plugins/ScrollToPlugin.min.js?ver=5.3.3'></script>
  <script type='text/javascript' src='/assets/themes/bridge/js/plugins/smoothPageScroll.min.js?ver=5.3.3'></script>
  <script type='text/javascript' src='/assets/themes/bridge/js/default_dynamic.js?ver=1578693649'></script>
- <script type='text/javascript'>
-    /* <![CDATA[ */
-    var QodeAdminAjax = {"ajaxurl":"https:\/\/\/wp-admin\/admin-ajax.php"};
-    var qodeGlobalVars = {"vars":{"qodeAddingToCartLabel":"Adding to Cart..."}};
-    /* ]]> */
- </script>
- <!-- <script type='text/javascript' src='/assets/themes/bridge/js/default.min.js?ver=5.3.3'></script> -->
+ <script type='text/javascript' src='/assets/themes/bridge/js/default.min.js?ver=5.3.3'></script>
  <script type='text/javascript' src='/assets/themes/bridge/js/custom_js.js?ver=1578693647'></script>
  <script type='text/javascript' src='/assets/js/comment-reply.min.js?ver=5.3.3'></script>
  <script type='text/javascript' src='/assets/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.6'></script>
  <script type='text/javascript'>
     /* <![CDATA[ */
-    var moove_frontend_gdpr_scripts = {"ajaxurl":"https:\/\/\/wp-admin\/admin-ajax.php","post_id":"2","plugin_dir":"\/\/assets/\/plugins\/gdpr-cookie-compliance","is_page":"1","strict_init":"1","enabled_default":{"third_party":0,"advanced":0},"geo_location":"false","force_reload":"false","is_single":"","current_user":"0","load_lity":"true","cookie_expiration":"365"};
+    var moove_frontend_gdpr_scripts = {"enabled_default":{"third_party": false}};
     /* ]]> */
  </script>
  <script type='text/javascript' src='/assets/plugins/gdpr-cookie-compliance/dist/scripts/main.js?ver=4.1.9'></script>
  <script type='text/javascript' src='/assets/js/wp-embed.min.js?ver=5.3.3'></script>
+ 
  <!-- V1 -->
  <div id="moove_gdpr_cookie_modal" class="lity-hide" role="dialog">
     <div class="moove-gdpr-modal-content moove-clearfix logo-position-left moove_gdpr_modal_theme_v1">
