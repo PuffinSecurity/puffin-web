@@ -1,9 +1,9 @@
 ---
 layout: es/author
 name: Adrián Campazas
-email: ss
-linkedin: ss
-twitter: ss
+email: 
+linkedin: 
+twitter: 
 avatar: /assets/uploads/2019/02/Puffin-security-Adrian-campazas-consultor-ciberseguridad-hacking-etico.jpg
 ---
 
