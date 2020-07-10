@@ -407,10 +407,10 @@ rs-alyer *,
 	
 /* CAROUSEL FUNCTIONS */
 rs-carousel-wrap {
-	cursor:url(/assets/plugins/revslider/public/assets/assets/css/openhand.cur), move;
+	cursor:url(/assets/plugins/revslider/public/assets/css/openhand.cur), move;
 }
 rs-carousel-wrap.dragged {
-	cursor:url(/assets/plugins/revslider/public/assets/assets/css/closedhand.cur), move;
+	cursor:url(/assets/plugins/revslider/public/assets/css/closedhand.cur), move;
 }
 
 rs-carousel-wrap { position: absolute; overflow: hidden;  width:100%;height:100%;top:0px;left:0px;}
