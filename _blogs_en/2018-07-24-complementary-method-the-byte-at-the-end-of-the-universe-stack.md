@@ -14,7 +14,7 @@ tags:
     - ret2ret
     - shellcode
     - x86
-image_src: /assets/uploads/2018/07/PuffinSecurity-ROP-En-el-exploiting-y-en-el-amor-todo-vale.jpg
+image_src: /assets/uploads/2018/07/Shellcodes-el-codigo-de-la-exploiting-puffin-security.jpg
 image_height: 1280
 image_width: 1920
 author: Yago Gutierrez
