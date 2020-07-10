@@ -17,7 +17,7 @@ image_src: /assets/uploads/2019/02/Puffin-security-blog-adrian-campazas-que-vien
 image_height: 1280
 image_width: 1920
 author: Adrián Campazas
-description: En este primer artículo que escribo quiero hablar del Coco de la ciberseguridad de los últimos tiempos que no es otro que el IOT (Internet of Things)
+description: I could dedicate this article to interpret a painting signed by Francisco de Goya, but I am not an art expert, or you wouldn’t have visited this blog for that. In this first article I write I speak of cybersecurity in recent times, which is none other than cybersecurityIoT (Internet of Things).
 publish_time: 2019-02-08T09:20:30+00:00
 modified_time: 2019-11-13T08:26:12+00:00
 comments_value: 0
