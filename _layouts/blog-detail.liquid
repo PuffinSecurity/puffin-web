@@ -23,6 +23,9 @@
                       <div class="container_inner clearfix">
                          <div class="title_subtitle_holder" >
                             <div class="title_subtitle_holder_inner">
+                              {% if page.subtitle %}
+                              <span class="text_above_title">{{ page.subtitle }}</span>
+                              {% endif %}
                                <h1 ><span>{{ page.title }}</span></h1>
                             </div>
                          </div>

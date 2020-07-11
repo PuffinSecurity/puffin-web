@@ -2,6 +2,7 @@
 layout: es/blog-detail
 comments: true
 title: "La llave de todo, Firmware en dispositivos IoT"
+subtitle: POR IGNACIO CRESPO MARTÍNEZ
 date: 2019-02-25T07:44:52+00:00
 categories:
     - Cyber security
@@ -11,7 +12,7 @@ tags:
     - dispositivos IoT
     - firmware
     - kernel
-image_src: /assets/uploads/2019/02/La-llave-de-todo-el-Firmware-de-dispositivos-IoT-e1563961483984.jpg
+image_src: /assets/uploads/2019/02/La-llave-de-todo-el-Firmware-de-dispositivos-IoT.jpg
 image_height: 467
 image_width: 700
 author: Ignacio Crespo Martínez
