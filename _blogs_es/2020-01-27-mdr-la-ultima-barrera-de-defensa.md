@@ -94,13 +94,13 @@ A continuación nos saldrá una ventana en que debemos aceptar los términos de 
 
 ![](/assets/ewww/lazy/placeholder-300x233.png)
 
-![](/assets/uploads/2020/01/instalación1_4-300x233.png)
+![](/assets/uploads/2020/01/instalacin1_4-300x233.png)
 
 Una vez finalice la instalación, le damos al botón “Finish”. Importante que la opción “Run Agent configuration interface” este desmarcada como podemos ver en la siguiente imagen.
 
 ![](/assets/ewww/lazy/placeholder-300x236.png)
 
-![](/assets/uploads/2020/01/Instalacion2_5-300x236.png)
+![](/assets/uploads/2020/01/instalacin1_4-300x233.png)
 
 A continuación, debemos instalar Sysmon, una herramienta de Microsoft que nos permitirá recolectar más información sobre el ordenador en el que está instalado el agente Puffin.
 
