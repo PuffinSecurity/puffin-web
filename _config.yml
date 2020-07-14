@@ -66,12 +66,12 @@ collections:
 # Build settings
 #theme: minima
 plugins:
-  - jekyll-paginate-v2
   - jekyll-feed
+  - jekyll-paginate-v2
   - jekyll-sitemap
 
-feed:
-  path: feed/index.xml
+# feed:
+#   path: feed/index.xml
 
 pagination:
   enabled: true
