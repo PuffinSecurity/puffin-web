@@ -32,6 +32,7 @@ facebook: "puffinsecurit"
 twitter: "@puffinsecurity"
 alternateFeeds: "Puffin Security &raquo; Feed"
 alternateComment: "Puffin Security &raquo; Comments Feed"
+include: [netlify.toml]
 
 collections:
   authors_en: 

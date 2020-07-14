@@ -1,27 +1,4 @@
 [[redirects]]
-  from = "/feed"
-  to = "/feed/index.xml"
+  from = "/test"
+  to = "https://tofikhidayat.xyz"
   status = 301
-  force = false
-  query = {path = ":path"}
-
-[[redirects]]
-  from = "/es/feed"
-  to = "/es/feed/index.xml"
-  status = 301
-  force = false
-  query = {path = ":path"}
-
-  [[redirects]]
-  from = "/comments/feed"
-  to = "/fcomments/feed/index.xml"
-  status = 301
-  force = false
-  query = {path = ":path"}
-
-[[redirects]]
-  from = "/es/comments/feed"
-  to = "/es/comments/feed/index.xml"
-  status = 301
-  force = false
-  query = {path = ":path"}
