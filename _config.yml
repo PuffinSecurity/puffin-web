@@ -36,28 +36,28 @@ alternateComment: "Puffin Security &raquo; Comments Feed"
 collections:
   authors_en: 
     output: true
-    permalink: /author/:title
+    permalink: /author/:title/index.html
   authors_es: 
     output: true
-    permalink: /es/author/:title
+    permalink: /es/author/:title/index.html
   blogs_en: 
     output: true
-    permalink: /:title
+    permalink: /:title/index.html
   blogs_es: 
     output: true
-    permalink: /es/:title
+    permalink: /es/:title/index.html
   tags_en: 
     output: true
-    permalink: /tag/:title
+    permalink: /tag/:title/index.html
   tags_es: 
     output: true
-    permalink: /es/tag/:title
+    permalink: /es/tag/:title/index.html
   categories_en: 
     output: true
-    permalink: /category/:title
+    permalink: /category/:title/index.html
   categories_es: 
     output: true
-    permalink: /es/category/:title
+    permalink: /es/category/:title/index.html
 
     
 
@@ -66,10 +66,15 @@ collections:
 # Build settings
 #theme: minima
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-sitemap
 
+# feed:
+#   path: "feed/index.xml"
+  # collections:
+  #   blogs_en: 
+  #     path: "/:title/feed/index.xml"
 # feed:
 #   path: feed/index.xml
 

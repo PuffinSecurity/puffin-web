@@ -80,7 +80,7 @@ Escriba en la consola el comando **“get-host”** y aparecerá la versión que
 
 ![](/assets/ewww/lazy/placeholder-300x255.png)
 
-![](/assets/uploads/2020/01/versión-ps_2-300x255.png)
+![](/assets/uploads/2020/01/versin-ps_2-300x255.png)
 
 Descomprimimos la carpeta que nos hemos descargado. Debería de haber dos archivos y una carpeta como se muestra en la imagen:
 
@@ -110,7 +110,7 @@ Una vez descargado, debemos de ajustar el archivo de configuración a los datos 
 
 ![](/assets/ewww/lazy/placeholder-300x62.png)
 
-![](/assets/uploads/2020/01/configuraciónsysmon_6-300x62.png)
+![](/assets/uploads/2020/01/configuracinsysmon_6-300x62.png)
 
 Para instalar la herramienta debemos abrir una consola de administrador. Para ello buscamos cmd en el buscador hacemos click derecho sobre la aplicación y seleccionamos la opción **“Ejecutar como administrador”**.
 
@@ -156,7 +156,7 @@ Volvemos a comprobar que la ejecución de scripts esta habilitada y vemos que si
 
 ![](/assets/ewww/lazy/placeholder-300x257.png)
 
-![](/assets/uploads/2020/01/habilitar-ejecución-_9-300x257.png)
+![](/assets/uploads/2020/01/habilitar-ejecucin-_9-300x257.png)
 
 Una vez tenemos habilitada la ejecución de script, nos vamos a la carpeta donde tenemos el archivo .ps1 que nos hemos descargado anteriormente y editamos el archivo con un editor, en este caso usamos Notepad++. Un vez dentro del editor cambiamos <Wazuh-Manager-IP> por la IP de nuestro servidor, que en nuestro caso es 192.168.1.124 , además debemos poner https en lugar de http y guardamos.
 

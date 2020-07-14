@@ -172,7 +172,7 @@ We see in the second part of this post.
 Exploit the vulnerable program (with SUID enabled) discussed in this post to get root (ejem..setuid (0)) by ret2libc (hint, why have not always skip to the beginning of a function).  
 With NX enabled without ASLR ( \*very easy).
 
-In the [previous post](/shellcodes-el-codigo-de-la-cascara/) we started our own small ctf. It consisted of several different shellcodes in a program (code in the previous post, the end). I bring my solution.  
+In the [previous post](/es/shellcodes-el-codigo-de-la-cascara) we started our own small ctf. It consisted of several different shellcodes in a program (code in the previous post, the end). I bring my solution.  
 Nothing but start here noting that the program filters us 0x0b byte. It is perfectly possible that the reader does not notice immediately the problem is this, and it turns out that 0x0b is the value that we place in EAX for the syscall execve(). Well, first things first, let’s study the program from the point of view of an exploiter, that is, from our  
 `$ sudo sysctl -w kernel.randomize_va_space=0  
 [sudo] password for arget:  

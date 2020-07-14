@@ -276,7 +276,7 @@ Por otro lado, el servidor puede crear un hilo para atender cada petición, pero
 Hemos visto que, aunque poco aconsejable, la fuerza bruta siempre es una opción.  
 Nos vemos en el siguiente post, saludos.
 
-Hace un [par de posts](/partiendo-de-la-base/) propusimos un [reto](/partiendo-de-la-base/#ctf) en el que nos encontramos a un viejo amigo:  
+Hace un [par de posts](/starting-from-the-base-attacks-to-base-frame-pointer-ebp/) propusimos un [reto](/starting-from-the-base-attacks-to-base-frame-pointer-ebp//#ctf) en el que nos encontramos a un viejo amigo:  
 
     #include <stdio.h>
     #include <string.h>

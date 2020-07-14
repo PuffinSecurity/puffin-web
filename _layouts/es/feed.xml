@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+   <channel>
+      <title>{{ site.title }}</title>
+      <atom:link href="/feed/" rel="self" type="application/rss+xml" />
+      <link>/</link>
+      <description>{{ site.description }}</description>
+      <lastBuildDate>Wed, 13 May 2020 20:47:40 +0000</lastBuildDate>
+      <language>en-US</language>
+      <sy:updatePeriod>hourly</sy:updatePeriod>
+      <sy:updateFrequency>1</sy:updateFrequency>
+    {% for itm in site.blogs_es %}
+      <item>
+         <title>{{ itm.title }}</title>
+         <link>{{ itm.url }}</link>
+         <comments>{{ itm.url }}#respond</comments>
+         <pubDate>{{ itm.date }}</pubDate>
+         <dc:creator><![CDATA[{{ itm.author }}]]></dc:creator>
+         {% for cat in itm.categories  %}
+         <category><![CDATA[{{ cat }}]]></category>
+         {% endfor %}
+         {% for tag in itm.tags  %}
+         <category><![CDATA[{{ tag }}]]></category>
+         {% endfor %}
+         <description><![CDATA[{{ itm.description }}]]></description>
+         <slash:comments>0</slash:comments>
+      </item>
+      {% endfor %}
+      
+   </channel>
+</rss>

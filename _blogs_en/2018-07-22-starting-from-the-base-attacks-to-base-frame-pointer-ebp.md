@@ -581,6 +581,6 @@ root
 
 `EBP falso - strcpy() - &leave;ret - arg1 - arg2` scheme is clearly seen the first 4 lines. Later the scheme `EBP falso - función() - &leave;ret - arg`. for setuid() functions and system(). As exit() does not return not need false frame. Come end of the function (yes, again with double meaning). Hopefully in this epilogue not collect any false frame. Good afternoon.
 
-We resume the CBC itself. On this occasion I propose to find an original way to solve the challenge presented in the post [ret2libc: firing his own gun](/ret2libc-disparando-con-su-propia-pistola/). This challenge has already been presented two solutions in post ROP: In exploiting and love anything goes (One in the solutionary and another in through the post).
+We resume the CBC itself. On this occasion I propose to find an original way to solve the challenge presented in the post [ret2libc: firing his own gun](/es/partiendo-de-la-base-ataques-al-base-frame-pointer-ebp). This challenge has already been presented two solutions in post ROP: In exploiting and love anything goes (One in the solutionary and another in through the post).
 
 Now Yes, good evening, evenings…

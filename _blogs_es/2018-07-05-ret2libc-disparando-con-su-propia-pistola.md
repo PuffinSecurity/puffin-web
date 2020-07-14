@@ -178,7 +178,7 @@ Nos vemos en la segunda parte de este post.
 Explotar el programa vulnerable (con SUID activado) tratado en este post para conseguir root (ejem..setuid(0)) mediante ret2libc (pista, no siempre tienes por qué saltar al comienzo de una función).  
 Con NX activado y sin ASLR (\*muy\* fácil).
 
-En la [entrada anterior](/shellcodes-el-codigo-de-la-cascara/) comenzamos un pequeño ctf propio. Consistía en explotar mediante varios shellcodes distintos un programa (el código en el post anterior, al final). Yo traigo aquí mi solución.  
+En la [entrada anterior](/es/shellcodes-el-codigo-de-la-cascara) comenzamos un pequeño ctf propio. Consistía en explotar mediante varios shellcodes distintos un programa (el código en el post anterior, al final). Yo traigo aquí mi solución.  
 Nada más comenzar observamos que el programa nos filtra el byte 0x0b. Es perfectamente posible que el lector no se percate de inmediato del problema que es esto, y es que resulta que 0x0b es el valor que debemos situar en EAX para realizar la syscall execve(). Bueno, primero lo primero, estudiemos el programa desde el punto de vista de un exploiter, o sea, desde el nuestro  
 `$ sudo sysctl -w kernel.randomize_va_space=0  
 [sudo] password for arget:  
