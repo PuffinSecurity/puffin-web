@@ -1,3 +1,4 @@
+---
 layout: blog-detail
 comments: true
 title: Article
