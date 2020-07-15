@@ -1,7 +1,7 @@
 ---
 layout: es/blog-detail
 comments: true
-title: Title Here
+title: Articulo de Prueba
 date: (2020-07-14T15:44:00+00:00)
 categories:
 tags:
