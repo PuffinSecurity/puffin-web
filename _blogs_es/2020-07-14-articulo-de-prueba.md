@@ -4,7 +4,9 @@ comments: true
 title: Articulo de Prueba
 date: (2020-07-14T15:44:00+00:00)
 categories:
+    - Exploiting
 tags:
+    - buffer overflow
 image_src: /assets/uploads/2018/07/Puffin-Security-Empezando-desde-cero-exploiting-ciberseguridad-e1563961416652.jpg
 image_height: 467
 image_width: 700
