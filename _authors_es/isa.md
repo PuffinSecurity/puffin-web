@@ -4,8 +4,8 @@ name: isabel
 email: 
 linkedin: 
 twitter: 
-avatar: Author avatar
+avatar: /assets/uploads/2019/02/Puffin-security-Adrian-campazas-consultor-ciberseguridad-hacking-etico.jpg
 ---
 
-Description about author
+Ingeniera Industrial 
 
