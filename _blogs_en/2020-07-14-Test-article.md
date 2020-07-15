@@ -6,7 +6,7 @@ categories:
     - Exploiting
 tags:
     - buffer overflow
-image_src: banner image
+image_src: /assets/uploads/2018/07/Puffin-Security-My-name-is-overflow-buffer-overflow-exploiting-ciberseguridad.jpg
 image_height: 467
 image_width: 700
 author: Yago Gutierrez
