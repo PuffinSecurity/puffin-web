@@ -6,7 +6,7 @@ date: 2020-07-21T12:56:57+00:00
 categories:
     - Cyber security
 tags: Wordpress
-image_src: ![](/assets/uploads/2020/stephen-phillips-hostreviews-co-uk-sSPzmL7fpWc-unsplash.png)
+image_src: assets/uploads/2020/stephen-phillips-hostreviews-co-uk-sSPzmL7fpWc-unsplash.jpg
 image_height: 1280
 image_width: 1920
 author: Isabel Montoya
