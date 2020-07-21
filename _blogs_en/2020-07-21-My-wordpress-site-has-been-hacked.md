@@ -1,7 +1,7 @@
 ---
 layout: blog-detail
 comments: true
-title: "My wordpress site has been hacked"
+title: "My wordpress was hacked, ¿What do I do?"
 date: 2020-07-21T12:56:57+00:00
 categories:
     - Cyber security
