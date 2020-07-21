@@ -31,12 +31,12 @@ the site.
 A disinfection of a wordpress website should include:
 
 Analysis and search for threats.
-• Search for threats at the user level, studying the behavior of the application when accessed from different operating systems and web browsers.
-• Search for threats with administrator permissions, studying the different files hosted on the server in order to find the malicious code inserted in the application
-• Analysis of the threats found.
++Search for threats at the user level, studying the behavior of the application when accessed from different operating systems and web browsers.
++Search for threats with administrator permissions, studying the different files hosted on the server in order to find the malicious code inserted in the application
++Analysis of the threats found.
  
 Disinfection and neutralization of the threats found
-• The files affected by the malicious code should be disinfected, thus neutralizing the threats found in the previous phase.
+*The files affected by the malicious code should be disinfected, thus neutralizing the threats found in the previous phase.
  
 Search for exploitation vectors.
 • Possible entry vectors to be analyzed for the origin of the infection
