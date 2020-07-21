@@ -30,15 +30,17 @@ the site.
 
 A disinfection of a wordpress website should include:
 
-Analysis and search for threats.
+***Analysis and search for threats***
 + Search for threats at the user level, studying the behavior of the application when accessed from different operating systems and web browsers.
 + Search for threats with administrator permissions, studying the different files hosted on the server in order to find the malicious code inserted in the application
 + Analysis of the threats found.
+
+assets/uploads/2020/screenshot-3.png
  
-Disinfection and neutralization of the threats found
+***Disinfection and neutralization of the threats found***
 * The files affected by the malicious code should be disinfected, thus neutralizing the threats found in the previous phase.
  
-Search for exploitation vectors.
+***Search for exploitation vectors***
 - Possible entry vectors to be analyzed for the origin of the infection
 - The most common input vectors in WordPress-based applications are:
 o Default credentials
@@ -46,12 +48,14 @@ o Insecure authentication process
 o Injections
 o Upload of malicious code through an Uploader.
 
-Patching vulnerabilities
+***Patching vulnerabilities***
 - A patch to be made of the vulnerabilities found.
 - A set of recommendations to be made, in order to avoid future infections.
 
 Finally an executive report should be made, highlighting findings and organizing them by the impact over the business/web application. Along with the report an executive 
 presentation with the results should be performed in order to expose the final result and introduce improvements and future ideas.
+
+assets/uploads/2020/Cover.PNG
 
 The recommended tool to perform the wordpress disinfection is WPScan, a vulnerability scanner for WordPress. It was developed by the WPScan Team and sponsored by the renowned 
 security company Sucuri.
