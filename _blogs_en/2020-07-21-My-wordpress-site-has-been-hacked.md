@@ -35,7 +35,7 @@ A disinfection of a wordpress website should include:
 + Search for threats with administrator permissions, studying the different files hosted on the server in order to find the malicious code inserted in the application
 + Analysis of the threats found.
 
-assets/uploads/2020/screenshot-3.png
+![](/assets/uploads/2020/screenshot-3.png) 
  
 ***Disinfection and neutralization of the threats found***
 * The files affected by the malicious code should be disinfected, thus neutralizing the threats found in the previous phase.
@@ -55,7 +55,7 @@ o Upload of malicious code through an Uploader.
 Finally an executive report should be made, highlighting findings and organizing them by the impact over the business/web application. Along with the report an executive 
 presentation with the results should be performed in order to expose the final result and introduce improvements and future ideas.
 
-assets/uploads/2020/Cover.PNG
+![](/assets/uploads/2020/Cover.PNG)
 
 The recommended tool to perform the wordpress disinfection is WPScan, a vulnerability scanner for WordPress. It was developed by the WPScan Team and sponsored by the renowned 
 security company Sucuri.
