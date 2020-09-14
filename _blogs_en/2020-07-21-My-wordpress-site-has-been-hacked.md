@@ -12,7 +12,7 @@ image_width: 1920
 author: Isabel Montoya
 description: When there are indicators that your site is hacked, the most recommended action is to be calm as there is always a solution for it
 publish_time: 2020-07-21T12:56:57+00:00
-modified_time: 2020-07-21T20:47:40+00:00
+modified_time: 2020-09-14T20:47:40+00:00
 comments_value: 0
 ---
 
