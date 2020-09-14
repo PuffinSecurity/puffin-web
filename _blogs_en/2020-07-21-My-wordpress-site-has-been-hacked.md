@@ -4,7 +4,7 @@ comments: true
 title: "My wordpress was hacked, ¿What do I do?"
 date: 2020-07-21T12:56:57+00:00
 categories:
-    - Cyber security
+    - Wordpress
 tags: Wordpress
 image_src: /assets/uploads/2020/stephen-phillips-hostreviews-co-uk-sSPzmL7fpWc-unsplash.jpg
 image_height: 1280
