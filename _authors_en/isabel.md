@@ -1,10 +1,9 @@
 ---
 layout: author
 name: Isabel Montoya
-email: Isabel.montoya@puffinsecurity.com
-linkedin: ss
-twitter: ss
+email: isabel.montoya@puffinsecurity.com
+linkedin: 
+twitter: 
 avatar: 
 ---
-
 Cyber Security Account Manager. Project Enthusiastic about technology, life and hard work.
