@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Isabel Montoya
-email: ss
+email: Isabel.montoya@puffinsecurity.com
 linkedin: ss
 twitter: ss
 avatar: 
