@@ -1,6 +1,6 @@
 ---
 layout: author
-name: Isabel Montoya
+name: Maria Montoya
 email: ss
 linkedin: ss
 twitter: ss
