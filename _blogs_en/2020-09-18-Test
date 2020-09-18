@@ -18,7 +18,7 @@ tags:
 image_src: /assets/uploads/2018/07/Puffin-Security-My-name-is-overflow-buffer-overflow-exploiting-ciberseguridad.jpg
 image_height: 1280
 image_width: 1920
-author: Isabel Montoya
+author: Adri Campazas
 description: In principle it is already clear how we get control program flow leveraging a script out of bounds. Let&#8217;s see how the stack is for a function like yesterday #include &lt;stdio.h&gt; #include &lt;string.h&gt; void print(char* arg) { char buf[128]; strcpy(buf, arg); printf(&#8220;%sn&#8221;, buf); } int...
 publish_time: 2018-07-03T16:38:00+00:00
 modified_time: 2019-10-09T13:59:21+00:00
