@@ -17,27 +17,27 @@ comments_value: 0
 ---
 Looking for medium/expert level Information Security specialist.For High Level Whitebox testing Penetration Test. Using OSWAp Web App Criteria
 
-Injection.
-Broken Authentication.
-Sensitive Data Exposure.
-XML External Entities (XXE).
-Broken Access Control.
-Security Misconfiguration.
-Cross-Site Scripting XSS
-Insecure Deserialization
-Using Components with Known Vulnerabilities.
+* Injection.
+* Broken Authentication.
+* Sensitive Data Exposure.
+* XML External Entities (XXE).
+* Broken Access Control.
+* Security Misconfiguration.
+* Cross-Site Scripting XSS
+* Insecure Deserialization
+* Using Components with Known Vulnerabilities.
 
 OWASP Mobile top 10 risks
-M1: Improper Platform Usage
-M2: Insecure Data Storage
-M3: Insecure Communication
-M4: Insecure Authentication
-M5: Insufficient Cryptography
-M6: Insecure Authorization
-M7: Client Code Quality
-M8: Code Tampering
-M9: Reverse Engineering
-M10: Extraneous Functionality
+* M1: Improper Platform Usage
+* M2: Insecure Data Storage
+* M3: Insecure Communication
+* M4: Insecure Authentication
+* M5: Insufficient Cryptography
+* M6: Insecure Authorization
+* M7: Client Code Quality
+* M8: Code Tampering
+* M9: Reverse Engineering
+* M10: Extraneous Functionality
 
 Provide an example of what a test report would look like based on some of the criteria, in the description and whether IOS and Android can be reviewed.
 
