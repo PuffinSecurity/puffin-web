@@ -2,7 +2,7 @@
 layout: blog-detail
 comments: true 
 title: "Project Request: Penetration tester"
-date: 2020-10-09T15:44:00+00:00
+date: 2020-10-08T15:44:00+00:00
 categories:
 tags:
     - Proposal Sent
@@ -24,12 +24,11 @@ image_height: 1280
 image_width: 1920
 author: Yago Gutierrez
 description: Looking a Pen testing Expert with proven record in cybersecurity 
-publish_time: 2020-10-09T15:44:00+00:00
-modified_time: 2020-10-09T12:44:16+00:00
+publish_time: 2020-10-08T15:44:00+00:00
+modified_time: 2020-10-08T12:44:16+00:00
 comments_value: 0
 ---
-Looking a Pen testing Expert with proven record in cybersecurity and can share up to 3 business references to asses in our client current security posture and identify weaknesses, vulnerabilities and
-exploits in the information systems, networks, applications, procedures, and facilities, per the identified scope.
+Looking a Pen testing Expert with proven record in cybersecurity and can share up to 3 business references to asses in our client current security posture and identify weaknesses, vulnerabilities and exploits in the information systems, networks, applications, procedures, and facilities, per the identified scope.
 
 All tests shall be non-destructive in nature, where all remote system scanning, and attempts to exploit vulnerabilities or escalate privileges are conducted with proper care to avoid any disruption of service.
 
