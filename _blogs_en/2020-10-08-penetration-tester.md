@@ -22,7 +22,7 @@ tags:
 image_src: /assets/uploads/2018/07/Shellcodes-el-codigo-de-la-exploiting-puffin-security.jpg
 image_height: 1280
 image_width: 1920
-author: Yago Gutierrez
+author: Maria Montoya
 description: Looking a Pen testing Expert with proven record in cybersecurity 
 publish_time: 2020-10-08T15:44:00+00:00
 modified_time: 2020-10-08T12:44:16+00:00
