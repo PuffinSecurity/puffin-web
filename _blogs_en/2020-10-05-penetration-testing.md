@@ -9,7 +9,7 @@ tags:
 image_src: /assets/uploads/2018/07/Puffin-Security-Empezando-desde-cero-exploiting-ciberseguridad.jpg
 image_height: 1280
 image_width: 1920
-author: Yago Gutierrez
+author: Maria Montoya
 description: Penetration Test. Using OSWAp Web App Criteria
 publish_time: 2020-10-05T15:44:00+00:00
 modified_time: 2020-10-05T12:44:16+00:00
