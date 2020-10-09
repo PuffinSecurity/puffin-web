@@ -9,7 +9,7 @@ tags:
 image_src: /assets/uploads/2018/07/puffinsecurity-ret2libc-Disparando-con-su-propia-pistola.jpg
 image_height: 1280
 image_width: 1920
-author: Yago Gutierrez
+author: Maria Montoya
 description: The abilities required for certified penetration tester
 publish_time: 2020-10-09T15:44:00+00:00
 modified_time: 2020-10-09T12:44:16+00:00
