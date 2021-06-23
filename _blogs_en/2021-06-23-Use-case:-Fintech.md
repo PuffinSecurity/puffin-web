@@ -2,7 +2,7 @@
 layout: blog-detail
 comments: true 
 title: "Use Case: Fintech"
-date: 2020-10-05T15:44:00+00:00
+date: 2021-06-23T15:44:00+00:00
 categories:
 tags:
     - Use Case
@@ -15,10 +15,12 @@ publish_time: 2020-06-23T15:44:00+00:00
 modified_time: 2020-06-23T12:44:16+00:00
 comments_value: 0
 ---
-Scope
+Scope:
+
 Digital wallet mobile application with Android version was penetrated. The test was performed in a GreyBox manner and simulated a malicious user with partial knowledge regarding the system functionality.
 
 Time Frame:
+
 8 working days
 5 days penetration of Android version
 3 days of data analysis, elimination of false positives and elaboration of remediation report
@@ -34,6 +36,7 @@ Steps perfomed:
 8. Result generation
 
 Conclusions:
+
 In the FinTech businesses one of the most highlighted recommendations is to Implement a certificate pinning method to protect the communication between client and server.
 
 At Puffin Security, we enjoy contributing knowledge regarding security projects to complex organizations as our team is composed by Certified Security Engineers who follow codes of conduct (The ISACA, (ISC)2 and ISSA codes of conduct – likewise the OSSTMM “Rules of Engagement”). For more information, [contact us here](https://www.puffinsecurity.com/contact-us) or <info@puffinsecurity.com>  
