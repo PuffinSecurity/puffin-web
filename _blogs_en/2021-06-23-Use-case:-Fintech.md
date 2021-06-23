@@ -6,7 +6,7 @@ date: 2020-10-05T15:44:00+00:00
 categories:
 tags:
     - Use Case
-image_src: /assets/uploads/2018/07/Puffin-Security-Empezando-desde-cero-exploiting-ciberseguridad.jpg
+image_src: /assets/uploads/2021/06/cardmapr-nl-XH2JFgT4Abc-unsplash.jpg
 image_height: 1280
 image_width: 1920
 author: Maria Montoya
