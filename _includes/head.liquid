@@ -48,12 +48,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       {%  if page.customCss %}
       <link rel='stylesheet' href='/assets/css/{{ page.customCss }}' type='text/css' media='all' />
-      <meta name="debug" content="A" />
-      {% else %}
-      <link type='text/css' href='/assets/css/source-code.css'  media='all' rel='stylesheet' />
-      <meta name="debug" content="B" />
       {%  endif %}
-      <meta name="debug" content="C" />
+
 
 
       <link rel='stylesheet' id='dlm-frontend-css'  href='/assets/plugins/download-monitor/assets/css/frontend.css?ver=5.3.3' type='text/css' media='all' />
@@ -106,6 +102,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <noscript>
          <style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
       </noscript>
+
+      <script type="text/javascript">
+      var cssId = 'myCss';  // you could encode the css path itself to generate id..
+      if (!document.getElementById(cssId))
+      {
+         var head  = document.getElementsByTagName('head')[0];
+         var link  = document.createElement('link');
+         link.id   = cssId;
+         link.rel  = 'stylesheet';
+         link.type = 'text/css';
+         link.href = '//www.puffinsecurity.com/assets/css/{{ page.customCss }}'';
+         link.media = 'all';
+         head.appendChild(link);
+      }
+      </script>
+
    </head>
    <body class="home page-template page-template-full_width page-template-full_width-php page page-id-1989  qode-title-hidden side_menu_slide_from_right footer_responsive_adv hide_top_bar_on_mobile_header qode-content-sidebar-responsive qode-theme-ver-17.1 qode-theme-bridge qode_advanced_footer_responsive_1000 wpb-js-composer js-comp-ver-5.6 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
    
