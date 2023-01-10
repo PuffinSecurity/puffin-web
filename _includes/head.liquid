@@ -45,7 +45,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <link rel='stylesheet' id='contact-form-7-css'  href='/assets/plugins/contact-form-7/includes/css/styles.css?ver=5.1.7' type='text/css' media='all' />
       <link rel='stylesheet' id='rs-plugin-settings-css'  href='/assets/plugins/revslider/public/assets/css/rs6.css?ver=6.1.0' type='text/css' media='all' />
       <link rel='stylesheet' href='/assets/css/default.css' type='text/css' media='all' />
+
       {%  if page.customCss %}
+      <link rel='stylesheet' href='/assets/css/{{ page.customCss }}' type='text/css' media='all' />
+      {% else %}
       <link rel='stylesheet' href='/assets/css/{{ page.customCss }}' type='text/css' media='all' />
       {%  endif %}
       
