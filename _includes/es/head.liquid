@@ -41,12 +41,22 @@
       
       {%  if page.customCss %}
       <link rel='stylesheet' href='/assets/css/es/{{ page.customCss }}' type='text/css' media='all' />
-      <!-- A -->
-      {%  else %}
-      <!-- B -->
-      <link rel='stylesheet' href='/assets/css/{{ page.customCss }}' type='text/css' media='all' />
       {%  endif %}
-      <!-- C -->
+
+      <script type="text/javascript">
+      var cssId = 'myCss';  // you could encode the css path itself to generate id..
+      if (!document.getElementById(cssId))
+      {
+         var head  = document.getElementsByTagName('head')[0];
+         var link  = document.createElement('link');
+         link.id   = cssId;
+         link.rel  = 'stylesheet';
+         link.type = 'text/css';
+         link.href = '//www.puffinsecurity.com/assets/css/es/{{ page.customCss }}';
+         link.media = 'all';
+         head.appendChild(link);
+      }
+      </script>
       
       <link rel='stylesheet' id='dlm-frontend-css'  href='/assets/plugins/download-monitor/assets/css/frontend.css?ver=5.3.3' type='text/css' media='all' />
       <link rel='stylesheet' id='us-plugin-styles-css'  href='/assets/plugins/ultimate-social-deux/public/assets/css/style.css?ver=6.0.7' type='text/css' media='all' />
