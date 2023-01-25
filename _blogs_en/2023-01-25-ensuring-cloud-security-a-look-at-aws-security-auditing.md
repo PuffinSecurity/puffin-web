@@ -33,15 +33,11 @@ Creating a schedule is also important, as it allows you to plan the audit in adv
 
 When conducting an AWS security audit, there are several different types of audits that can be performed to ensure the security of your cloud environment. 
 
-#### Network security audit
+**Network security audit:** It focuses on identifying potential vulnerabilities in your network infrastructure and ensuring that it is configured securely. This can include reviewing firewall rules, access control lists, and network segmentation.
 
-It focuses on identifying potential vulnerabilities in your network infrastructure and ensuring that it is configured securely. This can include reviewing firewall rules, access control lists, and network segmentation.
+**Identity and access management (IAM) audit:** It focuses on ensuring that only authorized users have access to the resources they need. This can include reviewing IAM policies and roles, and ensuring that they are properly configured to provide the right level of access to the right users.
 
-#### Identity and access management (IAM) audit
-It focuses on ensuring that only authorized users have access to the resources they need. This can include reviewing IAM policies and roles, and ensuring that they are properly configured to provide the right level of access to the right users.
-
-#### Incident response audit 
-It focuses on identifying potential security incidents and having a plan in place to respond to them quickly and effectively. This can include reviewing incident response plans and procedures, and testing them to ensure that they are effective in the event of a security incident.
+**Incident response audit:** It focuses on identifying potential security incidents and having a plan in place to respond to them quickly and effectively. This can include reviewing incident response plans and procedures, and testing them to ensure that they are effective in the event of a security incident.
 
 #### Common Security Risks
 
