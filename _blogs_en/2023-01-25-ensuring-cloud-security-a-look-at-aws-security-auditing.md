@@ -7,12 +7,11 @@ categories:
     - Cyber security
 tags:
     - hacking
-    - vulnerabilidades
 image_src: /assets/uploads/2019/02/Puffin-security-blog-adrian-campazas-que-viene-el-coco-proteccion-y-ciberseguridad-en-iot-internet-of-things.jpg
 image_height: 1280
 image_width: 1920
-author: Adrián Campazas
-description: I could dedicate this article to interpret a painting signed by Francisco de Goya, but I am not an art expert, or you wouldn’t have visited this blog for that. In this first article I write I speak of cybersecurity in recent times, which is none other than cybersecurityIoT (Internet of Things).
+author: Maria Montoya
+description: In this blog post, we will explore the importance of cloud security and discuss some of the key considerations for ensuring the security of your cloud environment. From planning the audit to conducting and analyzing the results, we will explore why cloud security is more important than ever before.
 publish_time: 2019-02-08T09:20:30+00:00
 modified_time: 2019-11-13T08:26:12+00:00
 comments_value: 0
