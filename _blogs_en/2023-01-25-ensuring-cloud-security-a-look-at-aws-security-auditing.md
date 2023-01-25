@@ -7,7 +7,7 @@ categories:
     - Cyber security
 tags:
     - hacking
-image_src: /assets/uploads/2019/02/Puffin-security-blog-adrian-campazas-que-viene-el-coco-proteccion-y-ciberseguridad-en-iot-internet-of-things.jpg
+image_src: assets/uploads/2023/01/Puffin-security-blog-maria-montoya-ensuring-cloud-security-a-look-at-aws-security-auditing.png
 image_height: 1280
 image_width: 1920
 author: Maria Montoya
