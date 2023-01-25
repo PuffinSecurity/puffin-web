@@ -70,5 +70,3 @@ It's also important to communicate the results of the audit to all relevant stak
 In conclusion, conducting an AWS security audit is an essential step in ensuring the security of your cloud environment. By identifying potential risks and creating a plan of action to address them, you can help to protect your data and systems and minimize the risk of a security incident. 
 
 It is important to remember that security is an ongoing process, not a one-time event. Regularly conducting AWS security audits is crucial for ensuring the continued security of your cloud environment. By conducting regular audits, you can stay ahead of potential risks and vulnerabilities, and make sure that your cloud environment is always as secure as possible.
-
-Photo by <a href="https://unsplash.com/@timmykp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim van der Kuip</a> on <a href="https://unsplash.com/photos/CPs2X8JYmS8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
