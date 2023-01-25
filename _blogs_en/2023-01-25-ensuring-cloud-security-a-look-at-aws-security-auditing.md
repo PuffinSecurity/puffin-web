@@ -7,7 +7,7 @@ categories:
     - Cyber security
 tags:
     - hacking
-image_src: assets/uploads/2023/01/Puffin-security-blog-maria-montoya-ensuring-cloud-security-a-look-at-aws-security-auditing.png
+image_src: assets/uploads/2023/01/Puffin-security-blog-maria-montoya-ensuring-cloud-security-a-look-at-aws-security-auditing.jpg
 image_height: 1280
 image_width: 1920
 author: Maria Montoya
