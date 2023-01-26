@@ -73,3 +73,5 @@ It is important to remember that security is an ongoing process, not a one-time 
 
 At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. [Complete the form, and we'll be in touch as soon as possible](https://hub.puffinsecurity.com/aws-audit)
 
+![Tipos de protocolos usados en el ecosistema de IoT Internet of Things por Tara Salman](assets/uploads/2023/01/Puffin-security-blog-button-lest-audit.jpg)
+
