@@ -316,7 +316,7 @@ A good question is what use is getting a program that already do what you contro
 
 It’s time to go saying goodbye, the next time we see the exploitation with the occasional protection. Certainly something much more interesting.
     
-At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
