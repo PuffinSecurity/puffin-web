@@ -560,3 +560,9 @@ The truth is more elegant to use an exploit in a “program/script” that throu
 And here ended a full-fledged _post_ of references (meh really are not many), finally, today I felt like this.
 
 Good afternoon, the byte may accompany you.
+
+At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+
+Complete the form, and we'll be in touch as soon as possible
+
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://hub.puffinsecurity.com/quote)
