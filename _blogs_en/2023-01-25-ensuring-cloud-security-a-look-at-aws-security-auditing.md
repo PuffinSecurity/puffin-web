@@ -71,7 +71,7 @@ In conclusion, conducting an AWS security audit is an essential step in ensuring
 
 It is important to remember that security is an ongoing process, not a one-time event. Regularly conducting AWS security audits is crucial for ensuring the continued security of your cloud environment. By conducting regular audits, you can stay ahead of potential risks and vulnerabilities, and make sure that your cloud environment is always as secure as possible.
 
-At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
