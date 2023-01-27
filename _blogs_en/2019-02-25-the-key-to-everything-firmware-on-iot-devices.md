@@ -174,7 +174,7 @@ As we have seen, using **Binwalk** makes it extremely easy to extract the file s
 
 In the next article we will see how to analyze the firmware.
 
-At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
