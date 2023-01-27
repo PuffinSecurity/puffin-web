@@ -173,3 +173,9 @@ If we go into the **squash-root folder**, we found all the file system firmware 
 As we have seen, using **Binwalk** makes it extremely easy to extract the file system of a binary firmware.
 
 In the next article we will see how to analyze the firmware.
+
+At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+
+Complete the form, and we'll be in touch as soon as possible
+
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://hub.puffinsecurity.com/quote)
