@@ -315,3 +315,9 @@ sh-4.4$
 A good question is what use is getting a program that already do what you control is not intended to do. I really do not have much, just for practice to bring it to an environment where it does make sense, as a binary with the SUID bit, thus privilege elevation would be obtained. Many methods employ elevation of privilege vulnerabilities in binary as sudo or passwd.
 
 It’s time to go saying goodbye, the next time we see the exploitation with the occasional protection. Certainly something much more interesting.
+    
+At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+
+Complete the form, and we'll be in touch as soon as possible
+
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://hub.puffinsecurity.com/quote)
