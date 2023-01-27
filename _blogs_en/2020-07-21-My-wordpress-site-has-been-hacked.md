@@ -62,9 +62,6 @@ security company Sucuri.
 
 As WordPress disinfection is not an easy task, it should be performed by a team of experts committed to achieve the project goals in terms of quality, deadlines and costs.
 
-At Puffin Security, we enjoy contributing knowledge regarding security projects to complex organizations as our team is composed by Certified Security Engineers who follow codes
-of conduct (The ISACA, (ISC)2 and ISSA codes of conduct – likewise the OSSTMM “Rules of Engagement”). Feel free to contact us here: https://www.puffinsecurity.com/experienced-a-breach
-
 At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
 
 Complete the form, and we'll be in touch as soon as possible
