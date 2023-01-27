@@ -561,7 +561,7 @@ And here ended a full-fledged _post_ of references (meh really are not many), fi
 
 Good afternoon, the byte may accompany you.
 
-At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
