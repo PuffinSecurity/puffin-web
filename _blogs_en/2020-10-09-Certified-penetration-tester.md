@@ -31,7 +31,7 @@ routers, media types. Knowledge in protocols and services such as OSI model, IPv
 You should have knowledge in Security fundamentals and familiar with different types of threats, attack vectors, Network vulnerabilities and attacks, User authentication, permissions, password policies, audit
 policies, encryption, cryptography, Physical security, internet security, wireless security, and core security principles and have a Familiarity of security tools, technologies, and threat landscape.
 
-At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
