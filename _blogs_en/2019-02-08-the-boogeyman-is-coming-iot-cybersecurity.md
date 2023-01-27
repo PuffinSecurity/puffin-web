@@ -184,7 +184,7 @@ The example is very simple but as we see the degree of complexity in a simple co
 
 This new ecosystem highlights the need for manufacturers to develop their products thinking of the safety of them and besides that perform tests and check the condition of the product before it can come the bogeyman to visit us.
 
-At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
