@@ -62,7 +62,7 @@ security company Sucuri.
 
 As WordPress disinfection is not an easy task, it should be performed by a team of experts committed to achieve the project goals in terms of quality, deadlines and costs.
 
-At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
