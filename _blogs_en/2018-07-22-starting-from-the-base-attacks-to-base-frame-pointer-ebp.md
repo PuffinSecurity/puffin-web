@@ -584,3 +584,9 @@ root
 We resume the CBC itself. On this occasion I propose to find an original way to solve the challenge presented in the post [ret2libc: firing his own gun](/es/partiendo-de-la-base-ataques-al-base-frame-pointer-ebp). This challenge has already been presented two solutions in post ROP: In exploiting and love anything goes (One in the solutionary and another in through the post).
 
 Now Yes, good evening, evenings…
+             
+At Puffin Security, At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of cloud security. 
+
+Complete the form, and we'll be in touch as soon as possible
+
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://hub.puffinsecurity.com/quote)
