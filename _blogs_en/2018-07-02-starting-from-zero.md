@@ -177,4 +177,4 @@ At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so 
 
 Complete the form, and we'll be in touch as soon as possible
 
-[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://hub.puffinsecurity.com/quote)
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://www.puffinsecurity.com/contact-us)
