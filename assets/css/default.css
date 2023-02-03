@@ -781,6 +781,9 @@ a.broken_link {
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 }
+header{
+  position: fixed !important;
+}
 header .qode_icon_font_awesome,
 nav.main_menu>ul>li>a,
 .header-widget.widget_nav_menu ul.menu li a{
