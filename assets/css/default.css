@@ -790,11 +790,11 @@ header{
 
 @media only screen and (max-width: 1000px){
   .header_bottom{
-    position: fixed;
-    width: 100%;
+    position: fixed !important;
+    width: 100% !important;
   }
   .side_menu_button_wrapper{
-    position: absolute;
+    position: absolute !important;
     top: 0px;
     right: 40px;
   }
