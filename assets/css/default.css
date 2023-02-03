@@ -790,7 +790,7 @@ header{
 
 @media only screen and (max-width: 1000px){
   .header_bottom{
-    background-color: transparent;
+    background-color: transparent !important;
     position: fixed !important;
     width: 100% !important;
   }
