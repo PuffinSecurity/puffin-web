@@ -785,11 +785,12 @@ header{
   position: fixed !important;
 }
 .side_menu_button_wrapper .qodef-icon-dripicons{
-  background-color: white !important;
+  color: white !important;
 }
 
 @media only screen and (max-width: 1000px){
   .header_bottom{
+    background-color: transparent;
     position: fixed !important;
     width: 100% !important;
   }
