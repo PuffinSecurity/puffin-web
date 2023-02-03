@@ -804,6 +804,9 @@ header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.stic
   border-radius: 0 !important;
   border: 1px solid #9ca3af !important;
 }
+.qbutton.large{
+  color:white !important;
+}
 .vc_custom_1549018001898 {
 	padding-top: 50px !important;
 }
