@@ -796,6 +796,9 @@ nav.main_menu>ul>li>a,
 .header-widget.widget_nav_menu ul.menu li a{
   color: white !important;
 }
+header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.sticky_animate nav.main_menu>ul>li>a{
+  color: #444 !important;
+}
 .qbutton{
   background-color: black !important;
   border-radius: 0 !important;
