@@ -784,6 +784,21 @@ a.broken_link {
 header{
   position: fixed !important;
 }
+.side_menu_button_wrapper .qodef-icon-dripicons{
+  background-color: white !important;
+}
+
+@media only screen and (max-width: 1000px){
+  .header_bottom{
+    position: fixed;
+    width: 100%;
+  }
+  .side_menu_button_wrapper{
+    position: absolute;
+    top: 0px;
+    right: 40px;
+  }
+}
 .vc_custom_1565594016563 .wpb_wrapper h5 span{
   background-color: transparent !important;
 }
