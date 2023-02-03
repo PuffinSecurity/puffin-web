@@ -776,12 +776,21 @@ a.broken_link {
 }
 
 .vc_custom_1565602866467 {
-	background-image: url(/assets/uploads/2019/08/WebDesign-05C.png?id=2971) !important;
+	background-image: url(/assets/uploads/2023/01/hero-bg.png);
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 }
-
+header .qode_icon_font_awesome,
+nav.main_menu>ul>li>a,
+.header-widget.widget_nav_menu ul.menu li a{
+  color: white !important;
+}
+.qbutton{
+  background-color: black !important;
+  border-radius: 0 !important;
+  border: 1px solid #9ca3af !important;
+}
 .vc_custom_1549018001898 {
 	padding-top: 50px !important;
 }
