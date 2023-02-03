@@ -784,6 +784,13 @@ a.broken_link {
 header{
   position: fixed !important;
 }
+.wpb_wrapper h5 span{
+  background-color: transparent !important;
+}
+
+.wpb_wrapper h2 span{
+  color: white !important;
+}
 header .qode_icon_font_awesome,
 nav.main_menu>ul>li>a,
 .header-widget.widget_nav_menu ul.menu li a{
