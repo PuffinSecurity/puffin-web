@@ -641,6 +641,8 @@ nav.main_menu ul li:hover a {
 .website-language{
   margin-left: 10px;
   position: relative;
+  display: flex;
+  gap: 5px;
 }
 .website-language::before{
   content: "";
@@ -656,10 +658,6 @@ nav.main_menu ul li:hover a {
   padding: 0 !important;
   margin: 0 !important;
 }
-.website-language a:first-child{
-  padding-right: 5px !important;
-}
-
 
 
 
