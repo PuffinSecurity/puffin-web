@@ -655,10 +655,10 @@ nav.main_menu ul li:hover a {
 .website-language a{
   margin: 0 !important;
 }
-.website-language:first-child a{
+.website-language a:first-child{
   padding-right: 3px !important;
 }
-.website-language:last-child a{
+.website-language a:last-child{
   padding-left: 3px !important;
 }
 
