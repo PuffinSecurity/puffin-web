@@ -638,7 +638,13 @@ nav.main_menu ul li:hover a {
 {
 	color: #276c91 !important;
 }
-
+.website-language a{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.website-language a:first-child{
+  border-left: 1px solid white;
+}
 
 
 
