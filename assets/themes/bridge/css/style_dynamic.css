@@ -668,7 +668,7 @@ nav.main_menu ul li:hover a {
   padding-left: 4px !important;
 }
 .qode_icon_font_awesome{
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   display: flex;
   align-items: center;
