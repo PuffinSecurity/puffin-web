@@ -645,7 +645,7 @@ nav.main_menu ul li:hover a {
 .website-language::before{
   content: "";
   background-color: white;
-  width: 2px;
+  width: 1px;
   height: 10px;
   position: absolute;
   left: 50%;
