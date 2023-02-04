@@ -13,6 +13,10 @@ header{
   position: fixed !important;
   backdrop-filter: blur(8px) !important;
 }
+.header_top,
+.header_bottom {
+ background-color : transparent !important;
+}
 .side_menu_button_wrapper .qodef-icon-dripicons{
   color: white !important;
 }
