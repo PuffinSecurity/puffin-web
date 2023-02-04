@@ -641,14 +641,12 @@ nav.main_menu ul li:hover a {
 .website-language{
   margin-left: 10px;
   position: relative;
-  display: flex;
-  gap: 5px;
 }
 .website-language::before{
   content: "";
   background-color: white;
   width: 2px;
-  height: 12px;
+  height: 10px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -658,7 +656,12 @@ nav.main_menu ul li:hover a {
   padding: 0 !important;
   margin: 0 !important;
 }
-
+.website-language:first-child a{
+  padding-right: 2px !important;
+}
+.website-language:last-child a{
+  padding-left: 2px !important;
+}
 
 
 
