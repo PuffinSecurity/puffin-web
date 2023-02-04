@@ -4,12 +4,54 @@
 }
 
 .vc_custom_1565603403549 {
-	background-image: url(/assets/uploads/2019/08/WebDesign-05C.png?id=2972) !important;
+	background-image: url(/assets/uploads/2023/01/hero-bg.png);
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 }
+header{
+  position: fixed !important;
+  backdrop-filter: blur(8px) !important;
+}
+.side_menu_button_wrapper .qodef-icon-dripicons{
+  color: white !important;
+}
 
+@media only screen and (max-width: 1000px){
+  .header_bottom{
+    background-color: transparent !important;
+    position: fixed !important;
+    width: 100% !important;
+  }
+  .side_menu_button_wrapper{
+    position: absolute !important;
+    top: 0px;
+    right: 40px;
+  }
+}
+.vc_custom_1565594016563 .wpb_wrapper h5 span{
+  background-color: transparent !important;
+}
+
+.vc_custom_1565594016563 .wpb_wrapper h2 span{
+  color: white !important;
+}
+header .qode_icon_font_awesome,
+nav.main_menu>ul>li>a,
+.header-widget.widget_nav_menu ul.menu li a{
+  color: white !important;
+}
+header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.sticky_animate nav.main_menu>ul>li>a{
+  color: #444 !important;
+}
+.qbutton{
+  background-color: black !important;
+  border-radius: 0 !important;
+  border: 1px solid #9ca3af !important;
+}
+.qbutton.large{
+  color:white !important;
+}
 .vc_custom_1549018001898 {
 	padding-top: 50px !important;
 }
