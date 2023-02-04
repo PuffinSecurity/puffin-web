@@ -826,13 +826,12 @@ header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.stic
 }
 .website-language a:last-child::before{
   content: "";
-  width: 16px;
+  width: 15px;
   height: 4px;
   background-color: white;
   position: absolute;
   bottom: 2px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 5px;
 }
 .vc_custom_1549018001898 {
 	padding-top: 50px !important;
