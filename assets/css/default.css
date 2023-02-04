@@ -826,7 +826,7 @@ header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.stic
 }
 .website-language a:last-child::before{
   content: "";
-  width: 100%;
+  width: 16px;
   height: 4px;
   background-color: white;
   position: absolute;
