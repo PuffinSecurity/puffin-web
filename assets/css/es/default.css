@@ -4,7 +4,7 @@
 }
 
 .vc_custom_1565603403549 {
-	background-image: url(/assets/uploads/2023/01/hero-bg.png);
+	background-image: url(/assets/uploads/2023/01/hero-bg.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
@@ -29,11 +29,11 @@ header{
     right: 40px;
   }
 }
-.vc_custom_1565594016563 .wpb_wrapper h5 span{
+.vc_custom_1565603403549 .wpb_wrapper h5 span{
   background-color: transparent !important;
 }
 
-.vc_custom_1565594016563 .wpb_wrapper h2 span{
+.vc_custom_1565603403549 .wpb_wrapper h2 span{
   color: white !important;
 }
 header .qode_icon_font_awesome,
