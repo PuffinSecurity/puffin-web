@@ -639,14 +639,25 @@ nav.main_menu ul li:hover a {
 	color: #276c91 !important;
 }
 .website-language{
-  margin-left: 10px !important;
+  margin-left: 10px;
+  position: relative;
+}
+.website-language::before{
+  content: "";
+  background-color: white;
+  width: 1px;
+  height: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 .website-language a{
-  padding: 0 3px !important;
+  padding: 0 4px !important;
   margin: 0 !important;
 }
 .website-language a:first-child{
-  border-right: 1px solid white;
+  padding-right: 8 px !important;
 }
 
 
