@@ -646,18 +646,18 @@ nav.main_menu ul li:hover a {
   content: "";
   background-color: white;
   width: 2px;
-  height: 14px;
+  height: 12px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
 }
 .website-language a{
-  padding: 0 4px !important;
+  padding: 0 !important;
   margin: 0 !important;
 }
 .website-language a:first-child{
-  padding-right: 8px !important;
+  padding-right: 5px !important;
 }
 
 
