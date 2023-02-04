@@ -22,7 +22,7 @@ header{
 }
 .website-language a:first-child::before{
   content: "";
-  width: 16px;
+  width: 15px;
   height: 4px;
   background-color: white;
   position: absolute;
