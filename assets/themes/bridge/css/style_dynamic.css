@@ -663,7 +663,15 @@ nav.main_menu ul li:hover a {
 .website-language a:last-child{
   padding-left: 4px !important;
 }
-
+.qode_icon_font_awesome{
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+}
 
 
 nav.mobile_menu ul li a,
