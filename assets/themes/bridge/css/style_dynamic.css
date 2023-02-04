@@ -640,7 +640,7 @@ nav.main_menu ul li:hover a {
 }
 .website-language{
   margin-left: 10px;
-  position: relative;
+  position: relative !important;
 }
 .website-language::before{
   content: "";
@@ -654,12 +654,13 @@ nav.main_menu ul li:hover a {
 }
 .website-language a{
   margin: 0 !important;
+  padding : 0 !important;
 }
 .website-language a:first-child{
-  padding-right: 3px !important;
+  padding-right: 2px !important;
 }
 .website-language a:last-child{
-  padding-left: 3px !important;
+  padding-left: 2px !important;
 }
 
 
