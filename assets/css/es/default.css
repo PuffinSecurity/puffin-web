@@ -20,7 +20,16 @@ header{
 .side_menu_button_wrapper .qodef-icon-dripicons{
   color: white !important;
 }
-
+.website-language a:first-child::before{
+  content: "";
+  width: 16px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 @media only screen and (max-width: 1000px){
   .header_bottom{
     background-color: transparent !important;
