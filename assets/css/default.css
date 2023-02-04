@@ -824,7 +824,7 @@ header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.stic
 .qbutton.large{
   color:white !important;
 }
-.website-language:last-child a::before{
+.website-language a:last-child::before{
   content: "";
   width: 100%;
   height: 2px;
