@@ -645,8 +645,8 @@ nav.main_menu ul li:hover a {
 .website-language::before{
   content: "";
   background-color: white;
-  width: 1px;
-  height: 8px;
+  width: 2px;
+  height: 14px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -657,7 +657,7 @@ nav.main_menu ul li:hover a {
   margin: 0 !important;
 }
 .website-language a:first-child{
-  padding-right: 8 px !important;
+  padding-right: 8px !important;
 }
 
 
