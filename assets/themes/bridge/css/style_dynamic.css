@@ -9,6 +9,9 @@
     header a{
 	    font-size : 14px !important;
     }
+  header ..q_logo img{
+    width: 323px !important;
+  }
   nav.main_menu ul li.active a span.underline_dash{
 	  bottom : -14px !important;
 	  z-index : -1 !important;
