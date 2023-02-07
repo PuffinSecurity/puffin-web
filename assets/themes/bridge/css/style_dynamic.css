@@ -9,6 +9,10 @@
     header a{
 	    font-size : 14px !important;
     }
+  nav.main_menu ul li.active a span.underline_dash{
+	  bottom : -14px !important;
+	  z-index : -1 !important;
+  }
     h1 a:hover,
     .box_image_holder .box_icon .fa-stack i.fa-stack-base,
     .q_percentage_with_icon,
