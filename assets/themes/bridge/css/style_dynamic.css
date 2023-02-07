@@ -44,6 +44,15 @@ footer .qode_icon_font_awesome{
 footer .foot-mdr{
 	display :block !important;
 }
+.qode-advanced-call-to-action .qode-advanced-cta-content{
+  width: 100% !important;
+}
+.qode-advanced-call-to-action .advanced-cta-link{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
     header a{
 	    font-size : 14px !important;
     }
