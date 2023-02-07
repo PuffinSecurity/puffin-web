@@ -41,6 +41,10 @@ footer .qode_icon_font_awesome{
   margin: 0 !important;
   border: 2px solid black !important;
 }
+footer .foot-mdr{
+	margin-top:-13px !important;
+	display :block !important;
+}
     header a{
 	    font-size : 14px !important;
     }
