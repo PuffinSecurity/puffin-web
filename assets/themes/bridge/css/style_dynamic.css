@@ -6,6 +6,17 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+.footer_bottom_holder .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-li ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
     header a{
 	    font-size : 14px !important;
     }
