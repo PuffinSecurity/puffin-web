@@ -6,7 +6,7 @@
     ::-moz-selection {
     background: #0a78ff;
     }
-    header{
+    header a{
 	    font-size : 14px !important;
     }
     h1 a:hover,
