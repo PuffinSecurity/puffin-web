@@ -35,7 +35,11 @@ footer .footer-li ul{
 }
 footer .footer-links{
   display: flex;
-  gap: 10px;
+  gap: 15px;
+}
+footer .qode_icon_font_awesome{
+  margin: 0 !important;
+  border: 2px solid black !important;
 }
     header a{
 	    font-size : 14px !important;
