@@ -9,13 +9,31 @@
 .footer_bottom_holder .container{
   display: flex;
   justify-content: space-between;
+  padding: 10px 30px;
 }
-
+@media (max-width:767px) {
+  .footer_bottom_holder .container{
+    flex-direction: column;
+    padding: 10px 0;
+  }
+}
+.footer_bottom_holder{
+  background-color: #F2F2F2 !important;
+}
 footer .footer-li ul{
   list-style: none;
   display: flex;
   gap: 20px;
   align-items: center;
+}
+@media (max-width:767px) {
+  footer .footer-li ul{
+    flex-direction: column;
+  }
+}
+footer .footer-links{
+  display: flex;
+  gap: 10px;
 }
     header a{
 	    font-size : 14px !important;
