@@ -37,7 +37,7 @@ footer .footer-links{
   display: flex;
   gap: 15px;
 }
-@media (max-width:767px) {
+@media (min-width:768px) {
   footer .footer-links{
   padding-right : 50px !important;
 }
