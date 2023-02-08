@@ -37,6 +37,11 @@ footer .footer-links{
   display: flex;
   gap: 15px;
 }
+@media (max-width:767px) {
+  footer .footer-links{
+  padding-right : 50px !important;
+}
+}
 footer .qode_icon_font_awesome{
   margin: 0 !important;
   border: 2px solid black !important;
