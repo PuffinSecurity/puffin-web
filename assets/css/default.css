@@ -841,6 +841,14 @@ header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.stic
 .qbutton.large{
   color:white !important;
 }
+.qbutton.big_large{
+    display: inline-flex !important;
+    align-items: center;
+    padding: 0 !important;
+    justify-content: center;
+    height: 78px !important;
+    width: 270px !important;
+}
 .website-language a:last-child::before{
   content: "";
   width: 15px;
