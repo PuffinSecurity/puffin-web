@@ -72,7 +72,7 @@ footer .foot-mdr{
   header .q_logo img{
     width: 334px !important;
   }
-nav.main_menu ul li a span.underline_das
+nav.main_menu ul li a span.underline_dash,
 nav.main_menu ul li.active a span.underline_dash{
 	  bottom : -14px !important;
 	  z-index : -1 !important;
