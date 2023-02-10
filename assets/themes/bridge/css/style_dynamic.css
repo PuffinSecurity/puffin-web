@@ -6,6 +6,10 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+
+.menu-main li:hover a{
+	color : red !important;
+}
 .footer_bottom_holder .container{
   display: flex;
   justify-content: space-between;
