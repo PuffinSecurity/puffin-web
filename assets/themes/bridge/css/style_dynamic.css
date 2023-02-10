@@ -7,9 +7,6 @@
     background: #0a78ff;
     }
 
-.menu-main li:hover a{
-	color : red !important;
-}
 .footer_bottom_holder .container{
   display: flex;
   justify-content: space-between;
@@ -78,9 +75,8 @@ nav.main_menu ul li.active a span.underline_dash{
 	  z-index : -1 !important;
 	  background-color : white !important ;
   }
- nav.main_menu ul li.active a:hover span.underline_dash{
-	  bottom : -14px !important;
-	  z-index : -1 !important;
+ nav.main_menu ul li:hover a{
+	  opacity : 1 !important;
   }
     h1 a:hover,
     .box_image_holder .box_icon .fa-stack i.fa-stack-base,
