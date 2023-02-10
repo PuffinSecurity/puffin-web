@@ -806,8 +806,10 @@ header{
   background-color: transparent !important;
   font-size : 30px !important;
 }
-.vc_custom_1565594016563 .wpb_wrapper h2{
+@media (min-width: 767px){
+  .vc_custom_1565594016563 .wpb_wrapper h2{
   white-space: nowrap;
+}	
 }
 .vc_custom_1565594016563 .wpb_wrapper h2 span{
   color: white !important;
