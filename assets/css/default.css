@@ -806,7 +806,7 @@ header{
   background-color: transparent !important;
   font-size : 30px !important;
 }
-@media (min-width: 767px){
+@media (min-width: 768px){
   .vc_custom_1565594016563 .wpb_wrapper h2{
   white-space: nowrap;
 }	
