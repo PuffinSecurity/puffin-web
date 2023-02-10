@@ -52,6 +52,8 @@ ol {
 .header_top {
     line-height: 25px!important;
     height: 25px!important;
+    padding-top: 30px !important;
+    padding-bottom: 20px;
 }
 .call_to_action .text_wrapper .call_to_action_text {
     padding-top: 7px;
