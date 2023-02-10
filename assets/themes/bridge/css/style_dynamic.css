@@ -50,6 +50,11 @@ footer .qode_icon_font_awesome{
 footer .foot-mdr{
 	display :block !important;
 }
+@media (max-width:767px){
+	.why-puffin-h{
+		font-size : 32px !important;
+	}
+}
 .qode-advanced-call-to-action .qode-advanced-cta-content{
   width: 100% !important;
 }
