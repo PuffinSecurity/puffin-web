@@ -1,6 +1,9 @@
 
-.call_to_action{
+.vc_custom_1565593833923 .call_to_action{
   background-color : #ff6600
+}
+.vc_custom_1565593833923 .call_to_action h4{
+  color : white !important;
 }
 h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 10px;
