@@ -6,7 +6,9 @@
     ::-moz-selection {
     background: #0a78ff;
     }
-
+header.sticky:not(.header_style_on_scroll) .q_logo img.normal{
+	opacity : 1 !important;
+}
 .footer_bottom_holder .container{
   display: flex;
   justify-content: space-between;
