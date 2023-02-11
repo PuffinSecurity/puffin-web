@@ -813,6 +813,11 @@ header{
   background-color: transparent !important;
   font-size : 30px !important;
 }
+@media only screen and (max-width: 1000px){
+  .vc_custom_1565594016563 .wpb_wrapper h5{
+	 margin-top : 38px !important;
+}	
+}
 @media (min-width: 768px){
   .vc_custom_1565594016563 .wpb_wrapper h2{
   white-space: nowrap;
