@@ -6,7 +6,7 @@ margin:"",padding:"",border:"Width"},function(a,b){n.cssHooks[a+b]={expand:funct
 jQuery.noConflict();
 
 let header = document.getElementsByTagName("header");;
-let logo = document.getElementsByClassName("normal");
+let logo = document.getElementById("puff-logo");
 
 window.addEventListener("scroll",()=>{
   if(header[0].classList.contains("sticky")){
