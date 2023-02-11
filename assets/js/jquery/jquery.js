@@ -6,10 +6,7 @@ margin:"",padding:"",border:"Width"},function(a,b){n.cssHooks[a+b]={expand:funct
 jQuery.noConflict();
 
 let header = document.querySelector("header");
-console.log(header)
+console.log(header);
 window.addEventListener("scroll",()=>{
-  if(header.classList.contains("sticky")){
-    console.log("in");
-    
-  }
+  console.log(header);
 })
