@@ -784,7 +784,6 @@ a.broken_link {
 }
 header{
   position: fixed !important;
-  backdrop-filter: blur(8px) !important;
   background-color: rgba(0, 0, 0, .2);
 }
 .side_menu_button_wrapper .qodef-icon-dripicons{
@@ -810,6 +809,11 @@ header{
 @media (min-width: 768px){
   .vc_custom_1565594016563 .wpb_wrapper h2{
   white-space: nowrap;
+}	
+}
+@media (max-width: 767px){
+  .vc_custom_1565594016563 .wpb_wrapper h2{
+  line-height: 43px !important;
 }	
 }
 .vc_custom_1565594016563 .wpb_wrapper h2 span{
