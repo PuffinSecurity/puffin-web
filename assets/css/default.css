@@ -781,6 +781,9 @@ a.broken_link {
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 	height: 100vh;
+	display: flex;
+        align-items: center;
+        justify-content: center !important;
 }
 @media only screen and (max-width: 1000px){
   .vc_custom_1565602866467{
