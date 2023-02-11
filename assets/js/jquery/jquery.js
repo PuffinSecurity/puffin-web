@@ -12,6 +12,7 @@ let logo = document.getElementsByClassName("puff-logo");
 window.addEventListener("scroll",()=>{
   if(header[0].classList.contains("sticky")){
     console.log(logo[0]);
+     logo[0].setAttribute("src", "/assets/uploads/2023/01/logo%20-puffin_black_estc.png");
     logo[0].setAttribute("data-src", "/assets/uploads/2023/01/logo%20-puffin_black_estc.png");
   }
 })
