@@ -782,6 +782,11 @@ a.broken_link {
 	background-size: cover !important;
 	height: 100vh;
 }
+@media only screen and (max-width: 1000px){
+  .vc_custom_1565602866467{
+    top : -17px;
+  }
+}
 header{
   position: fixed !important;
   background-color: rgba(0, 0, 0, .2);
