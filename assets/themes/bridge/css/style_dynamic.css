@@ -6,6 +6,11 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+#back_to_top>span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header.sticky:not(.header_style_on_scroll) .q_logo img.normal{
 	opacity : 1 !important;
 }
