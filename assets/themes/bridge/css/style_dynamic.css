@@ -9,6 +9,19 @@
 header.sticky:not(.header_style_on_scroll) .q_logo img.normal{
 	opacity : 1 !important;
 }
+@media only screen and (max-width: 1000px){
+  .header_bottom{
+    background-color: rgba(0, 0, 0, .2) !important;
+  }
+  header .q_logo img.normal{
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    width: 206px !important;
+    height: auto !important;
+    transform: translateX(-50%);
+  }
+}
 .footer_bottom_holder .container{
   display: flex;
   justify-content: space-between;
