@@ -785,6 +785,7 @@ a.broken_link {
 header{
   position: fixed !important;
   background-color: rgba(0, 0, 0, .2);
+  padding-bottom: 17px !important;
 }
 .side_menu_button_wrapper .qodef-icon-dripicons{
   color: white !important;
