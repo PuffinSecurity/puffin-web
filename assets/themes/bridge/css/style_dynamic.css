@@ -8,6 +8,7 @@
     }
 .side-img{
   display: flex;
+   align-items: center;
   gap: 10px;
 }
 .incibe-img{
@@ -16,6 +17,8 @@
 
 .euro-log{
   max-width: 150px;
+  height: 66px;
+
 }
 #back_to_top>span{
   display: flex;
