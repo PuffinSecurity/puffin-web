@@ -6,12 +6,13 @@
     ::-moz-selection {
     background: #0a78ff;
     }
-.wpb_wrapper h1{
-   margin-top : 120px !important;
+.wpb_wrapper{
+   margin-top : 50px;
 }
 .side-img{
   display: flex;
    align-items: center;
+   justify-content: center;
   gap: 10px;
 }
 .incibe-img{
