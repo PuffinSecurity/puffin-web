@@ -6,6 +6,9 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+.wpb_text_column:first-child{
+  margin-top: 50px;
+}
 .side-img{
   display: flex;
    align-items: center;
