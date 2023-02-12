@@ -6,6 +6,17 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+.side-img{
+  display: flex;
+  gap: 10px;
+}
+.incibe-img{
+  max-width: 92px;
+}
+
+.euro-log{
+  max-width: 150px;
+}
 #back_to_top>span{
   display: flex;
   justify-content: center;
