@@ -11,9 +11,8 @@ header.sticky .header_top{
  background-color :white !important;
   padding : 5px 0 !important;
 }
-header.sticky .header_top .header-widget:nth-child(2),
-header.sticky .header_top .menu-top-header-container li{
-	display : none !important;
+header.sticky .header_top .header-widget:nth-child(2) .qode_icon_font_awesome{
+  border : 2px solid black !important;
 }
 header.sticky .header_top .menu-top-header-container li.website-language{
 	display : block !important;
@@ -23,9 +22,6 @@ header.sticky .header_top .menu-top-header-container li.website-language::before
 }
 
 
-header.sticky .header_top a{
-	color : black !important;
-}
  /* blog page  */
 .vc_custom_1548198829145 #ensuring-cloud-security-a-look-at-aws-security-auditingensuring-cloud-security-a-look-at-aws-security-auditing-layer-1{
 	margin-top : 40px !important;
