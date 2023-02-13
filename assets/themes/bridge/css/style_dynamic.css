@@ -11,7 +11,7 @@ header.sticky .header_top{
  background-color :white !important;
   padding : 5px 0 !important;
 }
-header.sticky .header_top .header-widget,
+header.sticky .header_top .header-widget:nth-child(2),
 header.sticky .header_top .menu-top-header-container li{
 	display : none !important;
 }
