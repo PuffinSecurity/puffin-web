@@ -884,6 +884,9 @@ header.has_top.scroll_top.stick.scrolled_not_transparent.page_header.sticky.stic
   bottom: 2px;
   left: 5px;
 }
+header.sticky .header_top .website-language a:last-child::before{
+   background-color: black !important;
+}
 .vc_custom_1549018001898 {
 	padding-top: 50px !important;
 }
