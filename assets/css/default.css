@@ -1398,6 +1398,6 @@ img.sab-custom-avatar {
 	height: unset !important;
 }
 
-header.sticky .header_top a{
+header.sticky .header_top .header-widget.widget_nav_menu ul.menu li a{
 	color : black !important;
 }
