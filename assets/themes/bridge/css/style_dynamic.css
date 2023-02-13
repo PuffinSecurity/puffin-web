@@ -11,15 +11,18 @@ header.sticky .header_top{
  background-color :white !important;
   padding : 5px 0 !important;
 }
+header.sticky .header_top .header-widget,
 header.sticky .header_top .menu-top-header-container li{
 	display : none !important;
 }
 header.sticky .header_top .menu-top-header-container li.website-language{
 	display : block !important;
 }
-header.sticky .header_top .menu-top-header-container li.website-language{
+header.sticky .header_top .menu-top-header-container li.website-language::before{
 	background-color : #000 !important;
 }
+
+
 header.sticky .header_top a{
 	color : black !important;
 }
