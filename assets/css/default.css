@@ -796,9 +796,7 @@ header{
   padding-bottom: 17px !important;
 }
 
-header.sticky .header_top a{
-	color : black !important;
-}
+
 .side_menu_button_wrapper .qodef-icon-dripicons{
   color: white !important;
 }
@@ -1398,4 +1396,8 @@ img.sab-custom-avatar {
 	margin-top: unset !important;
 	padding-top: unset !important;
 	height: unset !important;
+}
+
+header.sticky .header_top a{
+	color : black !important;
 }
