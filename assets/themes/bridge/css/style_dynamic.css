@@ -9,9 +9,16 @@
 header.sticky .header_top{
  display : block !important;
  background-color :white !important;
+  padding : 5px 0 !important;
 }
-header.sticky .header_top .menu-top-header li:not(.website-language){
+header.sticky .header_top .menu-top-header li{
 	display : none !important;
+}
+header.sticky .header_top .menu-top-header li.website-language{
+	display : block !important;
+}
+header.sticky .header_top .menu-top-header li.website-language{
+	background-color : #000 !important;
 }
 header.sticky .header_top a{
 	color : black !important;
