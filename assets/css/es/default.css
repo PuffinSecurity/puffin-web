@@ -1441,3 +1441,8 @@ img.sab-custom-avatar {
 		height: unset !important;
 	}
 }
+
+header.sticky .header_top .header-widget.widget_nav_menu ul.menu li a,
+header.sticky  .qode_icon_font_awesome{
+	color : black !important;
+}
