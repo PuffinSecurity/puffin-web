@@ -6,6 +6,16 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+header.sticky .header_top{
+ display : block !important;
+ background-color :white !important;
+}
+header.sticky .header_top .menu-top-header li:not(.website-language){
+	display : none !important;
+}
+header.sticky .header_top a{
+	color : black !important;
+}
  /* blog page  */
 .vc_custom_1548198829145 #ensuring-cloud-security-a-look-at-aws-security-auditingensuring-cloud-security-a-look-at-aws-security-auditing-layer-1{
 	margin-top : 40px !important;
