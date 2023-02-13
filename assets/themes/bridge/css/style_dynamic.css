@@ -609,6 +609,7 @@ nav.main_menu ul li.active a span.underline_dash{
 
 header.sticky .header_bottom{
 	background-color: rgba(255,255,255,1) !important;
+	padding: 10px 0;
 }
 
 
