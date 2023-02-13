@@ -9,7 +9,7 @@
 header.sticky .header_top{
  display : block !important;
  background-color :white !important;
-  padding : 5px 0 !important;
+  padding : 5px 30px !important;
 }
 header.sticky .header_top .header-widget:nth-child(2) .qode_icon_font_awesome{
   border : 2px solid black !important;
