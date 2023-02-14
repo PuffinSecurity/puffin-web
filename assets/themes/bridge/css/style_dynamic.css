@@ -19,6 +19,12 @@
    line-height: 20px;
    font-weight: 400;
 }
+ @media (max-width:1000px) {
+	 .ex-p{
+		 padding:200px 30px;
+	 }
+   
+  }
 .ex-p p,
 .ex-p li{
    margin-top:0px;
