@@ -7,8 +7,8 @@
     top : -17px;
 }
 }
-.call_to_action h5,
-.call_to_action h3,
+.call_to_action h5 span,
+.call_to_action h3 span,
 .call_to_action h4{
   color : white !important;
 }
