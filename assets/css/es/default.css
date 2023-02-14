@@ -8,6 +8,10 @@
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
+	height: 100vh;
+	display: flex;
+        align-items: center;
+        justify-content: center !important;
 }
 .vc_custom_1549019703736 .vc-es-36{
   display: flex;
