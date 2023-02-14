@@ -785,6 +785,22 @@ a.broken_link {
         align-items: center;
         justify-content: center !important;
 }
+.vc_custom_1549560468130,
+.vc_custom_1550190772044 ,
+.vc_custom_1550492728073,
+.vc_custom_1550158676664,
+.vc_custom_1550175526598,
+.vc_custom_1550155749787,
+.vc_custom_1550166902656,
+.vc_custom_1550237922089,
+.vc_custom_1550191281469,
+.vc_custom_1548890499977,
+vc_custom_1548890647775 {
+	height: 100vh;
+	display: flex;
+        align-items: center;
+        justify-content: center !important;
+}
 @media only screen and (max-width: 1000px){
   .vc_custom_1565602866467{
     top : -17px;
