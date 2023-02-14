@@ -131,6 +131,9 @@ footer .qode_icon_font_awesome{
   margin: 0 !important;
   border: 2px solid black !important;
 }
+footer .footer-li a{ 
+  color : black !important;
+}
 footer .foot-mdr{
 	display :block !important;
 }
