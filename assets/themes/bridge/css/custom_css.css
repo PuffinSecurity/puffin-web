@@ -1,12 +1,14 @@
 
  .call_to_action{
-  background-color : #ff6600
+  background-color : #ff6600 !important;
 }
 @media only screen and (max-width: 1000px){
   .call_to_action{
     top : -17px;
 }
 }
+.call_to_action h5,
+.call_to_action h3,
 .call_to_action h4{
   color : white !important;
 }
