@@ -2,7 +2,9 @@
 .saboxplugin-wrap {
 	min-height: 200px;
 }
-
+.home-h{
+  font-size:58px !important;
+}
 .vc_custom_1565603403549 {
 	background-image: url(/assets/uploads/2023/01/hero-bg.png) !important;
 	background-position: center !important;
@@ -13,6 +15,7 @@
         align-items: center;
         justify-content: center !important;
 }
+.vc_custom_1548890647775,
 .vc_custom_1549560468130,
 .vc_custom_1550190772044 ,
 .vc_custom_1550158676664,
