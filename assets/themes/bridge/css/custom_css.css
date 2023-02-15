@@ -12,6 +12,11 @@
 .call_to_action h4{
   color : white !important;
 }
+.call_to_action .two_columns_75_25 clearfix{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 10px;
 }
