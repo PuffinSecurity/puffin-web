@@ -12,7 +12,7 @@
 .call_to_action h4{
   color : white !important;
 }
-.call_to_action .two_columns_75_25 clearfix{
+.call_to_action .two_columns_75_25{
 	display: flex;
   justify-content: center;
   align-items: center;
