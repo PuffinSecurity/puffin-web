@@ -794,8 +794,9 @@ a.broken_link {
 .vc_custom_1550237922089,
 .vc_custom_1550191281469,
 .vc_custom_1548890499977,
+.vc_custom_1548890647775,
 vc_custom_1548890647775 {
-	height: 100vh;
+	height: 100vh !important;
 	display: flex;
         align-items: center;
         justify-content: center !important;
