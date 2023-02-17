@@ -6,6 +6,10 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+/* nav button on white backgound */
+header.sticky .qode_icon_font_awesome{
+   border : 1px solid black !important;
+}
 .cta-button{
   display: inline-flex!important;
     align-items: center;
