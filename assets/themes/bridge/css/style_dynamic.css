@@ -35,6 +35,11 @@ header.sticky .dripicons-view-apps:before{
    font-size : 58px !important;
    line-height: 46px !important;
 }
+@media (max-width:767px) {
+  .home-h{
+   font-size : 42px !important;
+}
+}
 .ex-p{
    margin-top : 100px;
    padding: 200px;
