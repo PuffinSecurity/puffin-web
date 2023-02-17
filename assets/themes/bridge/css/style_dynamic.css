@@ -12,6 +12,7 @@ header.sticky .qode_icon_font_awesome{
 }
 header.sticky .dripicons-view-apps:before{
 	color : black !important;
+	float : right !important;
 }
 .cta-button{
   display: inline-flex!important;
