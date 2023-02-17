@@ -681,7 +681,8 @@ header.sticky .header_bottom{
 }
 @media (max-width:1000px){
   header.sticky .header_bottom{
-    padding:  0;
+    padding:  0 20px !important;
+    padding-top : 20px !important;
   }
 }
 @media only screen and (min-width: 1000px) {
