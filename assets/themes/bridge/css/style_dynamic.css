@@ -678,6 +678,9 @@ header.sticky .header_bottom{
 	padding-top : 20px;
 			
             }
+	header.sticky .header_bottom{
+	padding:  0;
+}
 	}
 
 
