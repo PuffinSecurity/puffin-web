@@ -11,7 +11,7 @@
 header.sticky .header_top .header-widget.widget_nav_menu ul.menu li a, header.sticky .qode_icon_font_awesome {
     color: #000!important;
 }
-header.sticky .header_top .website-language a:last-child::before {
+header.sticky .header_top .website-language a:first-child::before {
     background-color: #000!important;
 }
 header.sticky .header_top .menu-top-header-container li.website-language::before {
