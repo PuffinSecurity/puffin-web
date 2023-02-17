@@ -1700,7 +1700,22 @@ footer #lang_sel_list.lang_sel_list_vertical a,
   .vc_custom_1550190772044,
   .vc_custom_1549560468130,
   .vc_custom_1550229148205,
+  .vc_custom_1550191281469,
+  .vc_custom_1548890499977,
+  .vc_custom_1548890647775,
+  .vc_custom_1550237922089,
+  .vc_custom_1550166902656,
+  .vc_custom_1550155749787 ,
+  .vc_custom_1550158676664 ,
+  .vc_custom_1550175526598 ,
   .vc_custom_1549557982946{
     margin-top: -20px !important;
+    display : block !important;
+  }
+}
+
+@media (max-width:1000px){
+  .vc_custom_1549557982946{
+     padding-top : 100px !important
   }
 }
