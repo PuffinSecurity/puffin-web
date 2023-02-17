@@ -17,6 +17,11 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width:767px){
+  .call_to_action .two_columns_75_25{
+      flex-direction : column;
+   }
+}
 h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 10px;
 }
