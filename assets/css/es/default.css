@@ -8,10 +8,10 @@
 header.sticky .header_top .header-widget.widget_nav_menu ul.menu li a, header.sticky .qode_icon_font_awesome {
     color: #000!important;
 }
-header.sticky .header_top .website-language a:first-child::before {
+header.sticky .website-language a:first-child::before {
     background-color: #000!important;
 }
-header.sticky .header_top .menu-top-header-container li.website-language::before {
+header.sticky  li.website-language::before {
     background-color: #000!important;
 }
 .vc_custom_1565603403549 {
