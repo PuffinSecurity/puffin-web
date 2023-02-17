@@ -666,6 +666,14 @@ header.sticky .header_bottom{
 	background-color: rgba(255,255,255,1) !important;
 	padding: 10px 0;
 }
+@media only screen and (min-width: 1000px) {
+		header.sticky .header_bottom{
+	background-color: rgba(255,255,255,1) !important;
+	padding: 0;
+	padding-top : 20px;
+			
+            }
+	}
 
 
 .header_top,
