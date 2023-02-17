@@ -41,6 +41,7 @@ vc_custom_1548890647775 {
         align-items: center;
         justify-content: center !important;
 }
+
 @media (max-width:1000px){
   .vc_custom_1565603403549 ,
   .vc_custom_1550502607680{
@@ -98,6 +99,18 @@ header{
     top: 0px;
     right: 40px;
   }
+	.vc_custom_1565603403549 .wpb_wrapper h5 span{
+  background-color: transparent !important;
+  font-size : 28px !important;
+}
+
+.vc_custom_1565603403549 .wpb_wrapper h2 span{
+  color: white !important;
+   font-size : 40px !important;
+}
+	.vc_custom_1565603403549 .wpb_wrapper h2{
+		white-space : normal;
+	}
 }
 .vc_custom_1565603403549 .wpb_wrapper h5 span{
   background-color: transparent !important;
