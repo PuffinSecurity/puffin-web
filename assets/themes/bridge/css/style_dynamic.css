@@ -675,6 +675,11 @@ header.sticky .header_bottom{
 	background-color: rgba(255,255,255,1) !important;
 	padding: 10px 0;
 }
+@media (max-width:1000px){
+  header.sticky .header_bottom{
+    padding:  0;
+  }
+}
 @media only screen and (min-width: 1000px) {
 		header.sticky .header_bottom{
 	background-color: rgba(255,255,255,1) !important;
@@ -682,9 +687,6 @@ header.sticky .header_bottom{
 	padding-top : 20px;
 			
             }
-	header.sticky .header_bottom{
-	padding:  0;
-}
 	}
 
 
