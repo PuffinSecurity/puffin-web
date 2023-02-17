@@ -10,6 +10,9 @@
 header.sticky .qode_icon_font_awesome{
    border : 1px solid black !important;
 }
+header.sticky .dripicons-view-apps:before{
+	color : black !important;
+}
 .cta-button{
   display: inline-flex!important;
     align-items: center;
