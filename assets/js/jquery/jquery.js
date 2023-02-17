@@ -21,11 +21,13 @@ window.addEventListener("scroll",()=>{
 })
 
 window.addEventListener("scroll",()=>{
-	if(window.scrollY > 700){
-		console.log("in")
-		header[0].classList.add("sticky");
-	}else{
-		console.log("out")
-		header[0].classList.remove("sticky");
+	if (window.matchMedia("(max-width:1000px)").matches){
+		if(window.scrollY > 700){
+			console.log("in")
+			header[0].classList.add("sticky");
+		}else{
+			console.log("out")
+			header[0].classList.remove("sticky");
+		}
 	}
 })
