@@ -99,8 +99,18 @@ header{
     top: 0px;
     right: 40px;
   }
-	.vc_custom_1565603403549 .wpb_wrapper h5 span{
+}
+.vc_custom_1565603403549 .wpb_wrapper h5 span{
   background-color: transparent !important;
+  font-size : 38px !important;
+}
+
+.vc_custom_1565603403549 .wpb_wrapper h2 span{
+  color: white !important;
+   font-size : 58px !important;
+}
+@media (max-width:767px){
+	.vc_custom_1565603403549 .wpb_wrapper h5 span{
   font-size : 28px !important;
 }
 
@@ -111,15 +121,6 @@ header{
 	.vc_custom_1565603403549 .wpb_wrapper h2{
 		white-space : normal;
 	}
-}
-.vc_custom_1565603403549 .wpb_wrapper h5 span{
-  background-color: transparent !important;
-  font-size : 38px !important;
-}
-
-.vc_custom_1565603403549 .wpb_wrapper h2 span{
-  color: white !important;
-   font-size : 58px !important;
 }
 header .qode_icon_font_awesome,
 nav.main_menu>ul>li>a,
