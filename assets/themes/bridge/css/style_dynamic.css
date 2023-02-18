@@ -33,7 +33,7 @@ header.sticky .dripicons-view-apps:before{
 }
 .home-h{
    font-size : 58px !important;
-   line-height: 46px !important;
+   line-height: 60px !important;
 }
 @media (max-width:767px) {
   .home-h{
