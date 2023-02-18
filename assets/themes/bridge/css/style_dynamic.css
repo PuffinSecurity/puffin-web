@@ -81,6 +81,11 @@ header.sticky .header_top .menu-top-header-container li.website-language::before
 .vc_custom_1548198829145 .rs-layer.Newspaper-Button.rev-btn{
 	margin-top : 55px !important;
 }
+@media (max-width:767px){
+	.vc_custom_1548198829145 .rs-layer.Newspaper-Button.rev-btn{
+	margin-top : 0px !important;
+}
+}
 .vc_custom_1548198829145 #rev_slider_28_1{
 	height:500px !important;
 }
