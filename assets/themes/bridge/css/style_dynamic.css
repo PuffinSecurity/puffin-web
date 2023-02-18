@@ -133,7 +133,7 @@ header.sticky:not(.header_style_on_scroll) .q_logo img.normal{
 }
 @media (min-width:768px){
    .vc_custom_1550190772044 .home-h{
-	 margin-top : 230px;
+	 margin-top : 230px !important;;
    }
 }
 .footer_bottom_holder .container{
