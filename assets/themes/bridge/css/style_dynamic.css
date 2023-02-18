@@ -31,13 +31,17 @@ header.sticky .dripicons-view-apps:before{
     border-radius: 0!important;
     border: 1px solid #9ca3af!important;
 }
+.qbutton,
+.cta-button{
+  transition : .5s ;
+}
 .qbutton:hover{
   background-color: rgba(0, 0, 0,.7) !important;
-  border: 1px solid black !important;
 }
 .cta-button:hover{
   background-color: rgba(0, 0, 0,.7) !important;
   border: 1px solid black !important;
+  color : white !important; 
 }
 .home-h{
    font-size : 58px !important;
