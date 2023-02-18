@@ -6,6 +6,7 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+nav.main_menu>ul>li>a>i.menu_icon{display:none !important;}
 /* nav button on white backgound */
 header.sticky .qode_icon_font_awesome{
    border : 1px solid black !important;
