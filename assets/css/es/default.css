@@ -5,6 +5,11 @@
 .home-h{
   font-size:58px !important;
 }
+@media (max-width:767px){
+   .vc_custom_1550191281469  .home-h{
+	margin-top : 40px;
+   }
+}
 header.sticky .header_top .header-widget.widget_nav_menu ul.menu li a, header.sticky .qode_icon_font_awesome {
     color: #000!important;
 }
@@ -35,6 +40,7 @@ header.sticky  .website-language::before {
 .vc_custom_1550237922089,
 .vc_custom_1550191281469,
 .vc_custom_1548890499977,
+.vc_custom_1550229148205,
 .vc_custom_1549557982946 {
 	height: 100vh;
 	display: flex;
@@ -44,6 +50,7 @@ header.sticky  .website-language::before {
 
 @media (max-width:1000px){
   .vc_custom_1565603403549 ,
+  .vc_custom_1550229148205 ,
   .vc_custom_1550502607680{
     display: block;
     height : calc(100vh + 20px);
