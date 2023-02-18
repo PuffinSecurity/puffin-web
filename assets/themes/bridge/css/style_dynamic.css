@@ -31,6 +31,10 @@ header.sticky .dripicons-view-apps:before{
     border-radius: 0!important;
     border: 1px solid #9ca3af!important;
 }
+.cta-button:hover{
+  background-color: rgba(0, 0, 0,.7) !important;
+  border: 1px solid black !important;
+}
 .home-h{
    font-size : 58px !important;
    line-height: 60px !important;
@@ -110,7 +114,7 @@ header.sticky .header_top .menu-top-header-container li.website-language::before
 }
 @media (max-width:1000px){
     .euro-log {
-        height: 54px;
+        height: auto;
     }
 }
 #back_to_top>span{
