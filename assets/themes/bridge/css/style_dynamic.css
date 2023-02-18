@@ -31,6 +31,10 @@ header.sticky .dripicons-view-apps:before{
     border-radius: 0!important;
     border: 1px solid #9ca3af!important;
 }
+.qbutton:hover{
+  background-color: rgba(0, 0, 0,.7) !important;
+  border: 1px solid black !important;
+}
 .cta-button:hover{
   background-color: rgba(0, 0, 0,.7) !important;
   border: 1px solid black !important;
