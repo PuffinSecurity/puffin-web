@@ -131,9 +131,9 @@ header.sticky:not(.header_style_on_scroll) .q_logo img.normal{
     transform: translateX(-50%);
   }
 }
-@media (min-width:768px){
+@media (min-width:992px){
    .vc_custom_1550190772044 .home-h{
-	 margin-top : 230px !important;;
+	 margin-top : 280px !important;;
    }
 }
 .footer_bottom_holder .container{
