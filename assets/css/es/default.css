@@ -46,7 +46,7 @@ header.sticky  .website-language::before {
   .vc_custom_1565603403549 ,
   .vc_custom_1550502607680{
     display: block;
-    height : calc(100vh + 20px)
+    height : calc(100vh + 20px);
     margin-top: -20px !important;
   }
   .vc_custom_1565603403549 .wpb_wrapper h2 span {
