@@ -155,6 +155,7 @@ header.sticky:not(.header_style_on_scroll) .q_logo img.normal{
   }
 }
 @media (min-width:992px){
+   .vc_custom_1550502607680 .home-h, 
    .vc_custom_1550190772044 .home-h{
 	 margin-top : 280px !important;;
    }
