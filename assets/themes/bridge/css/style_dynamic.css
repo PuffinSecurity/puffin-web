@@ -11,6 +11,15 @@ nav.main_menu>ul>li>a>i.menu_icon{display:none !important;}
 header.sticky .qode_icon_font_awesome{
    border : 1px solid black !important;
 }
+.mdr-hero{
+	display:flex;
+	align-items:center;
+}
+@media (max-width:992px){
+	.mdr-hero{
+	flex-direction : column;
+}
+}
 header.sticky .dripicons-view-apps:before{
 	color : black !important;
 	float : right !important;
