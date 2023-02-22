@@ -927,6 +927,9 @@ nav.main_menu ul li:hover a {
   height: 22px;
 }
 @media (max-width:379px){
+  .website-language a{
+	  font-size : 11px !important;
+	}
 .qode_icon_font_awesome{
 	width:18px;
 	height:18px;
