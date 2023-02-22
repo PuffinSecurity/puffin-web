@@ -926,8 +926,17 @@ nav.main_menu ul li:hover a {
   width: 22px;
   height: 22px;
 }
-
-
+@media (max-width:379px){
+.qode_icon_font_awesome{
+	width:18px;
+	height:8px;
+	font-size:12px !important;
+	}
+	
+	header .header_top .q_social_icon_holder{
+		width:auto !important;
+	}
+}
 nav.mobile_menu ul li a,
 nav.mobile_menu ul li h3{
 	 color: #012132; 		font-family: 'Montserrat', sans-serif;
