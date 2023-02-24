@@ -215,6 +215,7 @@ footer .foot-mdr{
 @media (max-width:767px){
 	.why-puffin-h{
 		font-size : 32px !important;
+		line-height:32px !important;
 	}
 }
 .qode-advanced-call-to-action .qode-advanced-cta-content{
