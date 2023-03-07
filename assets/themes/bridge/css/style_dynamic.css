@@ -6,6 +6,10 @@
     ::-moz-selection {
     background: #0a78ff;
     }
+/* remove gray div in ES version */
+#moove_gdpr_cookie_info_bar{
+  display : none !important;
+}
 .breach-title{
   margin-top: 100px !important;
 }
