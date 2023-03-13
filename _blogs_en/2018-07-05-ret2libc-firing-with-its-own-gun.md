@@ -555,7 +555,7 @@ There it is. What happens is that dash is not standard, not always in the last s
 
 Do not forget to re-enable ASLR and remove the SUID bit files /bin/bash and /bin/dash. You not want to keep the program we have been operating as SUID, because if someone enters your system, you can use it exactly the same way that we have used.
     
-At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
+At Puffin Security, we use the ELITE SECURITY CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
