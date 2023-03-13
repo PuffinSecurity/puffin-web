@@ -173,7 +173,7 @@ Program received signal SIGSEGV, Segmentation fault.
 
 As you can see, there is a moment that the program attempted to execute code 0x41414141, 41 is in hexadecim0al the character ‘A’, showing that we walked the saved return address being collected by the `ret` instruction. In the next post we will see how to take advantage of this control.
 
-At Puffin Security, we use the ELITE SECURITY TESTING CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
+At Puffin Security, we use the ELITE SECURITY CONSULTING methodology so you can rest assured that your organization will have the highest level of security. 
 
 Complete the form, and we'll be in touch as soon as possible
 
