@@ -1,4 +1,4 @@
 ---
 layout: category_detail
-title: Cyber security
+title: Cyber Security
 ---
