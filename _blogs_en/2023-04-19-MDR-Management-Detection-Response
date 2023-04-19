@@ -1,0 +1,20 @@
+---
+layout: blog-detail
+comments: true
+title: Title Here
+date: Date created , Example (2018-07-02T15:44:00+00:00)
+categories:
+	- Example categories
+tags:
+	- Example tags 1
+	- Example tags 2
+image_src: banner image
+image_height: 467
+image_width: 700
+author: Author
+description: Simple description ...
+publish_time: Date published, example (2018-07-02T15:44:00+00:00)
+modified_time: Date Edited, Example (2019-02-18T09:09:26+00:00)
+comments_value: 0
+--- 
+Content here
