@@ -7,7 +7,7 @@ categories:
     - Cybersecurity
 tags:
     - MDR
-image_src: /assets/uploads/2023/01/Banner.jpg
+image_src: /assets/uploads/2023/01/banner.jpg
 image_height: 1280
 image_width: 1920
 author: Jeanne Frances Santos
