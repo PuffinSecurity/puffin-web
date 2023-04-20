@@ -34,24 +34,24 @@ MDR is a proactive and holistic approach to cybersecurity that combines technolo
 MDR consists of three main components: management, detection, and response. Let's take a closer look at each of these components:
 
 
-1. First item **Management:** The management component of MDR involves the development of a security strategy that aligns with the business's objectives and risk tolerance. This includes the identification of critical assets, risk assessment, and the establishment of security policies and procedures.
+1. First item**Management:** The management component of MDR involves the development of a security strategy that aligns with the business's objectives and risk tolerance. This includes the identification of critical assets, risk assessment, and the establishment of security policies and procedures.
 
-2. Second item **Detection:** The detection component of MDR involves the continuous monitoring of the network for suspicious activity. This includes the use of advanced security tools and techniques to identify threats that may have evaded traditional security measures. Threat hunting, anomaly detection, and behavioral analysis are some of the key techniques used for detection.
+2. Second item**Detection:** The detection component of MDR involves the continuous monitoring of the network for suspicious activity. This includes the use of advanced security tools and techniques to identify threats that may have evaded traditional security measures. Threat hunting, anomaly detection, and behavioral analysis are some of the key techniques used for detection.
 
-3. Third item **Response:** The response component of MDR involves the quick and effective response to detected threats. This includes the containment of the threat, investigation of the incident, and the remediation of any vulnerabilities that may have been exploited. Incident response plans, playbooks, and workflows are key components of the response phase.
+3. Third item**Response:** The response component of MDR involves the quick and effective response to detected threats. This includes the containment of the threat, investigation of the incident, and the remediation of any vulnerabilities that may have been exploited. Incident response plans, playbooks, and workflows are key components of the response phase.
 
 
 ## **MDR Benefits:**
 
 MDR offers a wide range of benefits for businesses looking to enhance their cybersecurity posture. Here are some of the key benefits of MDR:
 
-1. First item **Comprehensive Protection:** MDR provides end-to-end protection against a wide range of cyber threats, including advanced persistent threats (APTs), malware, and phishing attacks.
+1. First item**Comprehensive Protection:** MDR provides end-to-end protection against a wide range of cyber threats, including advanced persistent threats (APTs), malware, and phishing attacks.
 
-2. Second item **Real-Time Visibility:** MDR provides businesses with real-time visibility into their network security, enabling them to detect and respond to threats quickly.
+2. Second item**Real-Time Visibility:** MDR provides businesses with real-time visibility into their network security, enabling them to detect and respond to threats quickly.
 
-3. Third item **Cost-Effective:** MDR is a cost-effective approach to cybersecurity, as it eliminates the need for businesses to invest in multiple security solutions and tools.
+3. Third item**Cost-Effective:** MDR is a cost-effective approach to cybersecurity, as it eliminates the need for businesses to invest in multiple security solutions and tools.
 
-4. Fourth item **Proactive Approach:** MDR takes a proactive approach to cybersecurity, enabling businesses to identify and mitigate threats before they cause any damage.
+4. Fourth item**Proactive Approach:** MDR takes a proactive approach to cybersecurity, enabling businesses to identify and mitigate threats before they cause any damage.
 
 ## Conclusion ##
 
