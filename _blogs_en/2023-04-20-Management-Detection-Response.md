@@ -4,9 +4,9 @@ comments: true
 title: "A Comprehensive Guide to Management, Detection and Response (MDR)"
 date: 2023-04-20T16:00:00+00:00
 categories:
-	-Cybersecurity
+	- Cybersecurity
 tags:
-	-MDR
+	- MDR
 image_src: /assets/uploads/2023/01/Banner.jpg
 image_height: 467
 image_width: 700
