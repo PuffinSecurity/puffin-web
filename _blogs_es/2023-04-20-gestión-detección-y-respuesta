@@ -4,9 +4,9 @@ comments: true
 title: Guía completa de gestión, detección y respuesta (Management, Detection and Response-MDR)
 date: 2023-04-20T16:00:00+00:00
 categories:
-	- Ciberseguridad
+    - Ciberseguridad
 tags:
-	- MDR
+    - MDR
 image_src: /assets/uploads/2023/01/banner.jpg
 image_height: 1280
 image_width: 1920
