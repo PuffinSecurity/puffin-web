@@ -4,7 +4,7 @@ comments: true
 title: "Ensuring Cloud Security: A Look at AWS Security Auditing"
 date: 2023-01-24T09:20:30+00:00
 categories:
-    - Cyber security
+    - Cybersecurity
 tags:
     - hacking
 image_src: /assets/uploads/2023/01/Puffin-security-blog-maria-montoya-ensuring-cloud-security-a-look-at-aws-security-auditing.jpg
