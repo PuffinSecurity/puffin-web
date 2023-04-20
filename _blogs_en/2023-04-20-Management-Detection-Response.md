@@ -34,7 +34,7 @@ MDR is a proactive and holistic approach to cybersecurity that combines technolo
 MDR consists of three main components: management, detection, and response. Let's take a closer look at each of these components:
 
 
-1. First item**Management:** The management component of MDR involves the development of a security strategy that aligns with the business's objectives and risk tolerance. This includes the identification of critical assets, risk assessment, and the establishment of security policies and procedures.
+**1. First itemManagement:** The management component of MDR involves the development of a security strategy that aligns with the business's objectives and risk tolerance. This includes the identification of critical assets, risk assessment, and the establishment of security policies and procedures.
 
 2. Second item**Detection:** The detection component of MDR involves the continuous monitoring of the network for suspicious activity. This includes the use of advanced security tools and techniques to identify threats that may have evaded traditional security measures. Threat hunting, anomaly detection, and behavioral analysis are some of the key techniques used for detection.
 
