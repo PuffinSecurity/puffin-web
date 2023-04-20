@@ -8,8 +8,8 @@ categories:
 tags:
 	- MDR
 image_src: /assets/uploads/2023/01/Banner.jpg
-image_height: 467
-image_width: 700
+image_height: 1280
+image_width: 1920
 author: Jeanne Frances Santos
 description: MDR is a proactive and holistic approach to cybersecurity that combines technology, people, and processes to protect against, detect, and respond to cyber threats.
 publish_time: 2019-04-20T16:00:00+00:00
