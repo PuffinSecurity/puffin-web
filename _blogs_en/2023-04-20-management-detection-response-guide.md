@@ -57,4 +57,4 @@ At Puffin Security, we use the ELITE SECURITY CONSULTING methodology so you can 
 
 Complete the form, and we'll be in touch as soon as possible
 
-[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')]
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://hub.puffinsecurity.com/aws-audit?utm_source=website&utm_medium=blog&utm_campaign=aws)
