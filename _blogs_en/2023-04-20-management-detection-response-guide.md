@@ -4,9 +4,9 @@ comments: true
 title: "A Comprehensive Guide to Management, Detection and Response (MDR)"
 date: 2023-04-20T16:00:00+00:00
 categories:
-    - Cybersecurity
+    - Cybersecurity, IT Management
 tags:
-    - MDR
+    - MDR, cybersecurity, incident response, threat management, network security
 image_src: /assets/uploads/2023/01/mybanner.jpeg
 image_height: 1280
 image_width: 1920
@@ -51,3 +51,10 @@ MDR offers a wide range of benefits for businesses looking to enhance their cybe
 ## Conclusion ##
 
 In conclusion, Management, Detection and Response (MDR) is a comprehensive approach to cybersecurity that provides businesses with end-to-end protection against a wide range of cyber threats. It involves a proactive and holistic approach to security that combines technology, people, and processes. MDR offers a wide range of benefits, including comprehensive protection, real-time visibility, cost-effectiveness, and a proactive approach to cybersecurity. Businesses looking to enhance their cybersecurity posture should consider implementing MDR as part of their overall security strategy.
+
+
+At Puffin Security, we use the ELITE SECURITY CONSULTING methodology so you can rest assured that your organization will have the highest level of cyber security. 
+
+Complete the form, and we'll be in touch as soon as possible
+
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')]
