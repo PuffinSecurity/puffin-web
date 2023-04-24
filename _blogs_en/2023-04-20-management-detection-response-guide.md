@@ -4,9 +4,14 @@ comments: true
 title: "A Comprehensive Guide to Management, Detection and Response (MDR)"
 date: 2023-04-20T16:00:00+00:00
 categories:
-    - Cybersecurity, IT Management
+    - Cybersecurity
+    - IT Management
 tags:
-    - MDR, cybersecurity, incident response, threat management, network security
+    - MDR
+    - Cybersecurity
+    - Incident response
+    - Threat management
+    - Network security
 image_src: /assets/uploads/2023/01/mybanner.jpeg
 image_height: 1280
 image_width: 1920
@@ -57,4 +62,4 @@ At Puffin Security, we use the ELITE SECURITY CONSULTING methodology so you can 
 
 Complete the form, and we'll be in touch as soon as possible
 
-[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')]([https://hub.puffinsecurity.com/aws-audit?utm_source=website&utm_medium=blog&utm_campaign=aws](https://hub.puffinsecurity.com/mdr-your-own-team-of-security-experts))
+[![Lets Audit Button](/assets/uploads/2023/01/Puffin-security-blog-button-lest-audit-2.jpg 'lets Audit Button')](https://hub.puffinsecurity.com/mdr-your-own-team-of-security-experts)
