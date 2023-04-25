@@ -1,7 +1,7 @@
 ---
 layout: es/blog-detail
 comments: true
-title: Gestión, Detección y Respuesta (MDR): La Nueva Era en Ciberseguridad
+title: Gestion, Deteccion y Respuesta (MDR) La Nueva Era en Ciberseguridad
 date: 2023-04-20T16:00:00+00:00
 categories:
     - Tecnología
