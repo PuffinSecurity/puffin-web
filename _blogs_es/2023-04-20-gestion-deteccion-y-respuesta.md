@@ -32,11 +32,11 @@ MDR es una estrategia de ciberseguridad que se enfoca en la detección temprana 
 
 MDR funciona mediante la implementación de una serie de medidas de seguridad cibernética diseñadas para detectar y responder rápidamente a las amenazas. Estas medidas pueden incluir la recopilación y análisis de datos de seguridad en tiempo real, la implementación de tecnologías avanzadas de seguridad, como la inteligencia artificial y el aprendizaje automático, y la colaboración entre los equipos de seguridad cibernética de la empresa y el proveedor de servicios de MDR.
 
-¿Por qué es importante la Gestión, Detección y Respuesta (MDR)?
+## **¿Por qué es importante la Gestión, Detección y Respuesta (MDR)?**
 
 MDR es importante porque permite a las empresas y organizaciones identificar y responder rápidamente a las amenazas cibernéticas. Con la técnica de MDR, los equipos de seguridad cibernética pueden detectar y responder rápidamente a las amenazas, lo que puede reducir el tiempo de inactividad y minimizar el impacto de un ataque. Además, la implementación de medidas de seguridad cibernética avanzadas, como la inteligencia artificial y el aprendizaje automático, puede mejorar aún más la eficacia de la técnica de MDR.
 
-Conclusión:
+## **Conclusión:**
 
 La Gestión, Detección y Respuesta (MDR) es una técnica avanzada de seguridad cibernética que permite a las empresas y organizaciones identificar y responder rápidamente a las amenazas cibernéticas. Al implementar medidas de seguridad cibernética avanzadas, como la recopilación y análisis de datos en tiempo real y la inteligencia artificial, los equipos de seguridad cibernética pueden trabajar de manera más efectiva para proteger la información crítica y minimizar el impacto de los ataques cibernéticos. En resumen, MDR es una técnica de seguridad
 
