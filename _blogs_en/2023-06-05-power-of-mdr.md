@@ -1,6 +1,6 @@
 ---
 layout: blog-detail
-comments: true
+comments:true
 title: Harnessing the Power of Manage, Detect, and Response: Empowering Effective Solutions in Modern Challenges
 date: 2023-06-05T15:44:00+00:00
 categories:
