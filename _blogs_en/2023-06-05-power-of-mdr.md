@@ -4,15 +4,9 @@ comments: true
 title: Harnessing the Power of Manage, Detect, and Response: Empowering Effective Solutions in Modern Challenges
 date: 2023-06-05T15:44:00+00:00
 categories:
-    - Cybersecurity
-    - Risk Management
-    - Incident Response
+    - Cybersecurity, Risk Management, Incident Response
 tags:
-    - Manage
-    - Detect
-    - Response
-    - Security
-    - Technology
+    - Manage, Detect, Response, Security, Technology
 image_src: /assets/uploads/2023/01/MDR2.jpg
 image_height: 1280
 image_width: 1920
