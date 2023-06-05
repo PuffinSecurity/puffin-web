@@ -1,7 +1,7 @@
 ---
 layout: blog-detail
 comments: true
-title: Harnessing the Power of Manage, Detect, and Response: Empowering Effective Solutions in Modern Challenges
+title: Harnessing the Power of MDR: Empowering Effective Solutions in Modern Challenges
 date: 2023-06-05T15:44:00+00:00
 categories:
     - Cybersecurity, Risk Management, Incident Response
