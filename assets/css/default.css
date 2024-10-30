@@ -831,29 +831,41 @@ header{
     right: 40px;
   }
 }
-.vc_custom_1565594016563 .wpb_wrapper h5 span{
+.landing_hero .wpb_wrapper h5 span{
   background-color: transparent !important;
   font-size : 30px !important;
 }
 @media only screen and (max-width: 1000px){
-  .vc_custom_1565594016563 .wpb_wrapper h5{
+  .landing_hero .wpb_wrapper h5{
 	 margin-top : 38px !important;
 }	
 }
 @media (min-width: 768px){
-  .vc_custom_1565594016563 .wpb_wrapper h2{
+  .landing_hero .wpb_wrapper h2{
   white-space: nowrap;
 }	
 }
 @media (max-width: 767px){
-  .vc_custom_1565594016563 .wpb_wrapper h2{
+  .landing_hero .wpb_wrapper h2{
   line-height: 43px !important;
 }	
 }
-.vc_custom_1565594016563 .wpb_wrapper h2 span{
+.landing_hero .wpb_wrapper h2 span{
   color: white !important;
   font-size : 58px !important;
 }
+
+/* Newly created H1 styles EDITNEW*/
+@media (max-width: 767px){
+	.landing_hero .wpb_wrapper h1{
+	line-height: 43px !important;
+}	
+}
+.landing_hero .wpb_wrapper h1 span{
+	color: white !important;
+	font-size: 58px !important;
+}
+
 header .qode_icon_font_awesome,
 nav.main_menu>ul>li>a,
 .header-widget.widget_nav_menu ul.menu li a{
@@ -931,7 +943,7 @@ header.sticky .header_top .website-language a:last-child::before{
 	background-image: url(/assets/uploads/2018/12/home-parallax2.jpg?id=181) !important;
 }
 
-.vc_custom_1565594016563 {
+.landing_hero {
 	padding-top: 18% !important;
 	padding-bottom: 18% !important;
 }
