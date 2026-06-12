@@ -34,3 +34,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem 'webrick', '~> 1.7'
+
+# Jekyll 4.1 is incompatible with logger >= 1.5 (ships with Ruby 3.2+):
+# its Stevenson logger skips Logger#initialize and crashes on @level_override.
+gem 'logger', '~> 1.4.0'
